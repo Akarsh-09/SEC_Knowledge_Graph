@@ -4,6 +4,8 @@ A financial knowledge graph QA system built over 35 SEC Form 10-K PDFs across fi
 
 **Frozen v2 results:** 80.00% accuracy, 86.67% macro precision, and 79.34% macro recall. You can reproduce these exact numbers offline with no API key. For the full breakdown, see the [Report](results/Genloop_TakeHome_Results.pdf).
 
+**GitHub Link:** <u>https://github.com/Akarsh-09/SEC_Knowledge_Graph</u>
+
 ## Quickstart: offline evaluation (no API key needed)
 
 From the repository root, using Python 3.11+:
