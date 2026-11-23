@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+data/pdfs/
+.cache/*
+!.cache/llm_cache.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+*.csv
+*.gexf
+
+# Local PDF inspection text/images; never part of graph QA storage.
+/tmp/
+
+# Submission includes the main graph; partial and historical scratch graphs stay local.
+/data/graph/*
+!/data/graph/kg.json
+/results/kg_*/
+.DS_Store
+*.pyc

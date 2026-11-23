@@ -1,0 +1,3215 @@
+{
+  "extraction_rules_digest": "d1cd573dffd1ad457748f377d98b45c160710ccb807ee9f2e89f7da6b2c4010e",
+  "core_metric_count": 14,
+  "documents": {
+    "AAPL_10K_2026.pdf": {
+      "ticker": "AAPL",
+      "parsed_cleanly": true,
+      "pages": 99,
+      "text_pages": 98,
+      "tables": 56
+    },
+    "ABBV_10K_2025.pdf": {
+      "ticker": "ABBV",
+      "parsed_cleanly": true,
+      "pages": 199,
+      "text_pages": 186,
+      "tables": 102
+    },
+    "AMD_10K_2025.pdf": {
+      "ticker": "AMD",
+      "parsed_cleanly": true,
+      "pages": 169,
+      "text_pages": 163,
+      "tables": 55
+    },
+    "AMZN_10K_2025.pdf": {
+      "ticker": "AMZN",
+      "parsed_cleanly": true,
+      "pages": 125,
+      "text_pages": 125,
+      "tables": 89
+    },
+    "AVGO_10K_2025.pdf": {
+      "ticker": "AVGO",
+      "parsed_cleanly": true,
+      "pages": 164,
+      "text_pages": 163,
+      "tables": 82
+    },
+    "BAC_10K_2025.pdf": {
+      "ticker": "BAC",
+      "parsed_cleanly": true,
+      "pages": 349,
+      "text_pages": 294,
+      "tables": 34
+    },
+    "BLK_10K_2025.pdf": {
+      "ticker": "BLK",
+      "parsed_cleanly": true,
+      "pages": 173,
+      "text_pages": 165,
+      "tables": 117
+    },
+    "COST_10K_2026.pdf": {
+      "ticker": "COST",
+      "parsed_cleanly": true,
+      "pages": 106,
+      "text_pages": 101,
+      "tables": 46
+    },
+    "CRM_10K_2026.pdf": {
+      "ticker": "CRM",
+      "parsed_cleanly": true,
+      "pages": 171,
+      "text_pages": 165,
+      "tables": 92
+    },
+    "C_10K_2025.pdf": {
+      "ticker": "C",
+      "parsed_cleanly": true,
+      "pages": 435,
+      "text_pages": 417,
+      "tables": 346
+    },
+    "GOOGL_10K_2025.pdf": {
+      "ticker": "GOOGL",
+      "parsed_cleanly": true,
+      "pages": 163,
+      "text_pages": 162,
+      "tables": 89
+    },
+    "GS_10K_2025.pdf": {
+      "ticker": "GS",
+      "parsed_cleanly": true,
+      "pages": 598,
+      "text_pages": 566,
+      "tables": 98
+    },
+    "HD_10K_2026.pdf": {
+      "ticker": "HD",
+      "parsed_cleanly": true,
+      "pages": 142,
+      "text_pages": 136,
+      "tables": 92
+    },
+    "INTC_10K_2025.pdf": {
+      "ticker": "INTC",
+      "parsed_cleanly": true,
+      "pages": 192,
+      "text_pages": 185,
+      "tables": 37
+    },
+    "JNJ_10K_2025.pdf": {
+      "ticker": "JNJ",
+      "parsed_cleanly": true,
+      "pages": 130,
+      "text_pages": 128,
+      "tables": 18
+    },
+    "JPM_10K_2025.pdf": {
+      "ticker": "JPM",
+      "parsed_cleanly": true,
+      "pages": 562,
+      "text_pages": 531,
+      "tables": 376
+    },
+    "KO_10K_2025.pdf": {
+      "ticker": "KO",
+      "parsed_cleanly": true,
+      "pages": 235,
+      "text_pages": 231,
+      "tables": 92
+    },
+    "LLY_10K_2025.pdf": {
+      "ticker": "LLY",
+      "parsed_cleanly": true,
+      "pages": 146,
+      "text_pages": 141,
+      "tables": 67
+    },
+    "META_10K_2025.pdf": {
+      "ticker": "META",
+      "parsed_cleanly": true,
+      "pages": 224,
+      "text_pages": 221,
+      "tables": 60
+    },
+    "MRK_10K_2025.pdf": {
+      "ticker": "MRK",
+      "parsed_cleanly": true,
+      "pages": 252,
+      "text_pages": 251,
+      "tables": 122
+    },
+    "MSFT_10K_2026.pdf": {
+      "ticker": "MSFT",
+      "parsed_cleanly": true,
+      "pages": 156,
+      "text_pages": 153,
+      "tables": 300
+    },
+    "MS_10K_2025.pdf": {
+      "ticker": "MS",
+      "parsed_cleanly": true,
+      "pages": 427,
+      "text_pages": 424,
+      "tables": 57
+    },
+    "MU_10K_2026.pdf": {
+      "ticker": "MU",
+      "parsed_cleanly": true,
+      "pages": 175,
+      "text_pages": 168,
+      "tables": 50
+    },
+    "NVDA_10K_2026.pdf": {
+      "ticker": "NVDA",
+      "parsed_cleanly": true,
+      "pages": 133,
+      "text_pages": 127,
+      "tables": 55
+    },
+    "ORCL_10K_2026.pdf": {
+      "ticker": "ORCL",
+      "parsed_cleanly": true,
+      "pages": 197,
+      "text_pages": 193,
+      "tables": 75
+    },
+    "PEP_10K_2025.pdf": {
+      "ticker": "PEP",
+      "parsed_cleanly": true,
+      "pages": 229,
+      "text_pages": 229,
+      "tables": 118
+    },
+    "PFE_10K_2025.pdf": {
+      "ticker": "PFE",
+      "parsed_cleanly": true,
+      "pages": 219,
+      "text_pages": 212,
+      "tables": 159
+    },
+    "PG_10K_2026.pdf": {
+      "ticker": "PG",
+      "parsed_cleanly": true,
+      "pages": 131,
+      "text_pages": 114,
+      "tables": 116
+    },
+    "QCOM_10K_2026.pdf": {
+      "ticker": "QCOM",
+      "parsed_cleanly": true,
+      "pages": 137,
+      "text_pages": 132,
+      "tables": 62
+    },
+    "TGT_10K_2026.pdf": {
+      "ticker": "TGT",
+      "parsed_cleanly": true,
+      "pages": 82,
+      "text_pages": 81,
+      "tables": 89
+    },
+    "TMO_10K_2025.pdf": {
+      "ticker": "TMO",
+      "parsed_cleanly": true,
+      "pages": 145,
+      "text_pages": 144,
+      "tables": 89
+    },
+    "TXN_10K_2025.pdf": {
+      "ticker": "TXN",
+      "parsed_cleanly": true,
+      "pages": 106,
+      "text_pages": 104,
+      "tables": 73
+    },
+    "UNH_10K_2025.pdf": {
+      "ticker": "UNH",
+      "parsed_cleanly": true,
+      "pages": 132,
+      "text_pages": 130,
+      "tables": 67
+    },
+    "WFC_10K_2025.pdf": {
+      "ticker": "WFC",
+      "parsed_cleanly": true,
+      "pages": 36,
+      "text_pages": 29,
+      "tables": 3
+    },
+    "WMT_10K_2026.pdf": {
+      "ticker": "WMT",
+      "parsed_cleanly": true,
+      "pages": 136,
+      "text_pages": 135,
+      "tables": 73
+    }
+  },
+  "companies": [
+    {
+      "company_id": "COMP:NVDA",
+      "parse_results": [
+        {
+          "source_doc": "NVDA_10K_2026.pdf",
+          "ticker": "NVDA",
+          "parsed_cleanly": true,
+          "pages": 133,
+          "text_pages": 127,
+          "tables": 55
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 86,
+            "source_doc": "NVDA_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Santa Clara, California",
+            "page_num": 1,
+            "source_doc": "NVDA_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "NVDA",
+      "core_metrics_extracted": 14,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 46,
+        "corroborating": 4,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 2,
+        "pages_replayed": 8,
+        "accepted_claims": 8,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "NVDA_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 2,
+            "pages_replayed": 8,
+            "accepted_claims": 8,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:AMD",
+      "parse_results": [
+        {
+          "source_doc": "AMD_10K_2025.pdf",
+          "ticker": "AMD",
+          "parsed_cleanly": true,
+          "pages": 169,
+          "text_pages": 163,
+          "tables": 55
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 144,
+            "source_doc": "AMD_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Santa Clara, California",
+            "page_num": 1,
+            "source_doc": "AMD_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "AMD",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 43,
+        "corroborating": 10,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 19,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "AMD_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 19,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:INTC",
+      "parse_results": [
+        {
+          "source_doc": "INTC_10K_2025.pdf",
+          "ticker": "INTC",
+          "parsed_cleanly": true,
+          "pages": 192,
+          "text_pages": 185,
+          "tables": 37
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 99,
+            "source_doc": "INTC_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Santa Clara, California",
+            "page_num": 1,
+            "source_doc": "INTC_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "INTC",
+      "core_metrics_extracted": 10,
+      "extracted_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 37,
+        "corroborating": 2,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 6,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "INTC_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 6,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:QCOM",
+      "parse_results": [
+        {
+          "source_doc": "QCOM_10K_2026.pdf",
+          "ticker": "QCOM",
+          "parsed_cleanly": true,
+          "pages": 137,
+          "text_pages": 132,
+          "tables": 62
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 93,
+            "source_doc": "QCOM_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "San Diego, California",
+            "page_num": 1,
+            "source_doc": "QCOM_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "QCOM",
+      "core_metrics_extracted": 13,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 45,
+        "corroborating": 4,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 11,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "QCOM_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 11,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:AVGO",
+      "parse_results": [
+        {
+          "source_doc": "AVGO_10K_2025.pdf",
+          "ticker": "AVGO",
+          "parsed_cleanly": true,
+          "pages": 164,
+          "text_pages": 163,
+          "tables": 82
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 84,
+            "source_doc": "AVGO_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Palo Alto, California",
+            "page_num": 1,
+            "source_doc": "AVGO_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "AVGO",
+      "core_metrics_extracted": 12,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 45,
+        "corroborating": 1,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 10,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "AVGO_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 10,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:TXN",
+      "parse_results": [
+        {
+          "source_doc": "TXN_10K_2025.pdf",
+          "ticker": "TXN",
+          "parsed_cleanly": true,
+          "pages": 106,
+          "text_pages": 104,
+          "tables": 73
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 91,
+            "source_doc": "TXN_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Dallas, Texas",
+            "page_num": 1,
+            "source_doc": "TXN_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "TXN",
+      "core_metrics_extracted": 13,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:EPS_DILUTED"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 43,
+        "corroborating": 7,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 12,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "TXN_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 12,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:MU",
+      "parse_results": [
+        {
+          "source_doc": "MU_10K_2026.pdf",
+          "ticker": "MU",
+          "parsed_cleanly": true,
+          "pages": 175,
+          "text_pages": 168,
+          "tables": 50
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 162,
+            "source_doc": "MU_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Boise, Idaho",
+            "page_num": 1,
+            "source_doc": "MU_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "MU",
+      "core_metrics_extracted": 13,
+      "extracted_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 44,
+        "corroborating": 1,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 6,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "MU_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 6,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:AAPL",
+      "parse_results": [
+        {
+          "source_doc": "AAPL_10K_2026.pdf",
+          "ticker": "AAPL",
+          "parsed_cleanly": true,
+          "pages": 99,
+          "text_pages": 98,
+          "tables": 56
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 85,
+            "source_doc": "AAPL_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Cupertino, California",
+            "page_num": 1,
+            "source_doc": "AAPL_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "AAPL",
+      "core_metrics_extracted": 14,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 47,
+        "corroborating": 7,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 3,
+        "pages_replayed": 7,
+        "accepted_claims": 12,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "AAPL_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 3,
+            "pages_replayed": 7,
+            "accepted_claims": 12,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:MSFT",
+      "parse_results": [
+        {
+          "source_doc": "MSFT_10K_2026.pdf",
+          "ticker": "MSFT",
+          "parsed_cleanly": true,
+          "pages": 156,
+          "text_pages": 153,
+          "tables": 300
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Deloitte & Touche LLP",
+            "page_num": 80,
+            "source_doc": "MSFT_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Redmond, Washington",
+            "page_num": 1,
+            "source_doc": "MSFT_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "MSFT",
+      "core_metrics_extracted": 14,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 46,
+        "corroborating": 11,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 16,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "MSFT_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 16,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:GOOGL",
+      "parse_results": [
+        {
+          "source_doc": "GOOGL_10K_2025.pdf",
+          "ticker": "GOOGL",
+          "parsed_cleanly": true,
+          "pages": 163,
+          "text_pages": 162,
+          "tables": 89
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 83,
+            "source_doc": "GOOGL_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Mountain View, California",
+            "page_num": 1,
+            "source_doc": "GOOGL_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "GOOGL",
+      "core_metrics_extracted": 13,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 42,
+        "corroborating": 10,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 12,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "GOOGL_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 12,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:AMZN",
+      "parse_results": [
+        {
+          "source_doc": "AMZN_10K_2025.pdf",
+          "ticker": "AMZN",
+          "parsed_cleanly": true,
+          "pages": 125,
+          "text_pages": 125,
+          "tables": 89
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 59,
+            "source_doc": "AMZN_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Seattle, Washington",
+            "page_num": 1,
+            "source_doc": "AMZN_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "AMZN",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT",
+        "METRIC:RD_EXPENSE",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 39,
+        "corroborating": 7,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 12,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "AMZN_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 12,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:META",
+      "parse_results": [
+        {
+          "source_doc": "META_10K_2025.pdf",
+          "ticker": "META",
+          "parsed_cleanly": true,
+          "pages": 224,
+          "text_pages": 221,
+          "tables": 60
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 146,
+            "source_doc": "META_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Menlo Park, California",
+            "page_num": 1,
+            "source_doc": "META_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "META",
+      "core_metrics_extracted": 13,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 44,
+        "corroborating": 6,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 10,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "META_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 10,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:ORCL",
+      "parse_results": [
+        {
+          "source_doc": "ORCL_10K_2026.pdf",
+          "ticker": "ORCL",
+          "parsed_cleanly": true,
+          "pages": 197,
+          "text_pages": 193,
+          "tables": 75
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 111,
+            "source_doc": "ORCL_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Austin, Texas",
+            "page_num": 1,
+            "source_doc": "ORCL_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "ORCL",
+      "core_metrics_extracted": 10,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 36,
+        "corroborating": 5,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 8,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "ORCL_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 8,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:CRM",
+      "parse_results": [
+        {
+          "source_doc": "CRM_10K_2026.pdf",
+          "ticker": "CRM",
+          "parsed_cleanly": true,
+          "pages": 171,
+          "text_pages": 165,
+          "tables": 92
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 98,
+            "source_doc": "CRM_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "San Francisco, California",
+            "page_num": 1,
+            "source_doc": "CRM_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "CRM",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 44,
+        "corroborating": 5,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 14,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "CRM_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 14,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:JPM",
+      "parse_results": [
+        {
+          "source_doc": "JPM_10K_2025.pdf",
+          "ticker": "JPM",
+          "parsed_cleanly": true,
+          "pages": 562,
+          "text_pages": 531,
+          "tables": 376
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 289,
+            "source_doc": "JPM_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New York, New York",
+            "page_num": 1,
+            "source_doc": "JPM_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "JPM",
+      "core_metrics_extracted": 8,
+      "extracted_core_metrics": [
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 35,
+        "corroborating": 4,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 5,
+        "pages_replayed": 5,
+        "accepted_claims": 7,
+        "rejected_by_provenance_gate": 4,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "JPM_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 5,
+            "pages_replayed": 5,
+            "accepted_claims": 7,
+            "rejected_by_provenance_gate": 4,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:BAC",
+      "parse_results": [
+        {
+          "source_doc": "BAC_10K_2025.pdf",
+          "ticker": "BAC",
+          "parsed_cleanly": true,
+          "pages": 349,
+          "text_pages": 294,
+          "tables": 34
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 185,
+            "source_doc": "BAC_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Charlotte, North Carolina",
+            "page_num": 1,
+            "source_doc": "BAC_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "BAC",
+      "core_metrics_extracted": 7,
+      "extracted_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 28,
+        "corroborating": 1,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 5,
+        "rejected_by_provenance_gate": 4,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "BAC_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 5,
+            "rejected_by_provenance_gate": 4,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:GS",
+      "parse_results": [
+        {
+          "source_doc": "GS_10K_2025.pdf",
+          "ticker": "GS",
+          "parsed_cleanly": true,
+          "pages": 598,
+          "text_pages": 566,
+          "tables": 98
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 317,
+            "source_doc": "GS_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New York, New York",
+            "page_num": 1,
+            "source_doc": "GS_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "GS",
+      "core_metrics_extracted": 7,
+      "extracted_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 28,
+        "corroborating": 1,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 1,
+        "rejected_by_provenance_gate": 11,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "GS_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 1,
+            "rejected_by_provenance_gate": 11,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:MS",
+      "parse_results": [
+        {
+          "source_doc": "MS_10K_2025.pdf",
+          "ticker": "MS",
+          "parsed_cleanly": true,
+          "pages": 427,
+          "text_pages": 424,
+          "tables": 57
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Deloitte & Touche LLP",
+            "page_num": 207,
+            "source_doc": "MS_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New York, New York",
+            "page_num": 1,
+            "source_doc": "MS_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "MS",
+      "core_metrics_extracted": 8,
+      "extracted_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 29,
+        "corroborating": 2,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 3,
+        "rejected_by_provenance_gate": 4,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "MS_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 3,
+            "rejected_by_provenance_gate": 4,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:WFC",
+      "parse_results": [
+        {
+          "source_doc": "WFC_10K_2025.pdf",
+          "ticker": "WFC",
+          "parsed_cleanly": true,
+          "pages": 36,
+          "text_pages": 29,
+          "tables": 3
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "San Francisco, California",
+            "page_num": 1,
+            "source_doc": "WFC_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [
+        "METRIC:NET_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "coverage_flag": true,
+      "ticker": "WFC",
+      "core_metrics_extracted": 0,
+      "extracted_core_metrics": [],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": null,
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES",
+        "METRIC:SHAREHOLDERS_EQUITY"
+      ],
+      "fact_status_counts": {
+        "active": 5,
+        "corroborating": 0,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 9,
+        "candidate_pages_sent": 9,
+        "pages_replayed": 0,
+        "accepted_claims": 2,
+        "rejected_by_provenance_gate": 5,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "WFC_10K_2025.pdf",
+            "candidate_pages_selected": 9,
+            "candidate_pages_sent": 9,
+            "pages_replayed": 0,
+            "accepted_claims": 2,
+            "rejected_by_provenance_gate": 5,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:C",
+      "parse_results": [
+        {
+          "source_doc": "C_10K_2025.pdf",
+          "ticker": "C",
+          "parsed_cleanly": true,
+          "pages": 435,
+          "text_pages": 417,
+          "tables": 346
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "KPMG LLP",
+            "page_num": 187,
+            "source_doc": "C_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New York, New York",
+            "page_num": 1,
+            "source_doc": "C_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "C",
+      "core_metrics_extracted": 7,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 38,
+        "corroborating": 0,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 10,
+        "rejected_by_provenance_gate": 6,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "C_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 10,
+            "rejected_by_provenance_gate": 6,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:BLK",
+      "parse_results": [
+        {
+          "source_doc": "BLK_10K_2025.pdf",
+          "ticker": "BLK",
+          "parsed_cleanly": true,
+          "pages": 173,
+          "text_pages": 165,
+          "tables": 117
+        }
+      ],
+      "balance_sheet_diagnostics": [
+        {
+          "source_doc": "BLK_10K_2025.pdf",
+          "page_num": 116,
+          "section": "Item 8",
+          "snippet": "  Redeemable noncontrolling interests (\"NCI\") - consolidated sponsored investment products (\"CIPs\")                      2,636                1,691",
+          "raw_label": "Redeemable noncontrolling interests (\"NCI\") - consolidated sponsored investment products (\"CIPs\")",
+          "scale_multiplier": 1000000.0,
+          "values": [
+            {
+              "period": "FY2025",
+              "value_raw": 2636.0,
+              "value_usd": 2636000000.0
+            },
+            {
+              "period": "FY2024",
+              "value_raw": 1691.0,
+              "value_usd": 1691000000.0
+            }
+          ],
+          "note": "Separately labeled redeemable/temporary equity (ASC 480-10-S99-3A scope may apply). The strict Assets - (Liabilities + Equity) residual is unchanged; no balancing value is fabricated."
+        }
+      ],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Deloitte & Touche LLP",
+            "page_num": 115,
+            "source_doc": "BLK_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New York, New York",
+            "page_num": 1,
+            "source_doc": "BLK_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "BLK",
+      "core_metrics_extracted": 9,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:RD_EXPENSE",
+        "METRIC:SHAREHOLDERS_EQUITY"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:SHAREHOLDERS_EQUITY"
+      ],
+      "fact_status_counts": {
+        "active": 38,
+        "corroborating": 3,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 12,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "BLK_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 12,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:LLY",
+      "parse_results": [
+        {
+          "source_doc": "LLY_10K_2025.pdf",
+          "ticker": "LLY",
+          "parsed_cleanly": true,
+          "pages": 146,
+          "text_pages": 141,
+          "tables": 67
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 137,
+            "source_doc": "LLY_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Indianapolis, Indiana",
+            "page_num": 1,
+            "source_doc": "LLY_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "LLY",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 40,
+        "corroborating": 4,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 8,
+        "rejected_by_provenance_gate": 6,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "LLY_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 8,
+            "rejected_by_provenance_gate": 6,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:JNJ",
+      "parse_results": [
+        {
+          "source_doc": "JNJ_10K_2025.pdf",
+          "ticker": "JNJ",
+          "parsed_cleanly": true,
+          "pages": 130,
+          "text_pages": 128,
+          "tables": 18
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 118,
+            "source_doc": "JNJ_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New Brunswick, New Jersey",
+            "page_num": 1,
+            "source_doc": "JNJ_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "JNJ",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:EPS_DILUTED",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 45,
+        "corroborating": 7,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 21,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "JNJ_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 21,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:PFE",
+      "parse_results": [
+        {
+          "source_doc": "PFE_10K_2025.pdf",
+          "ticker": "PFE",
+          "parsed_cleanly": true,
+          "pages": 219,
+          "text_pages": 212,
+          "tables": 159
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "KPMG LLP",
+            "page_num": 108,
+            "source_doc": "PFE_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "New York, New York",
+            "page_num": 1,
+            "source_doc": "PFE_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "PFE",
+      "core_metrics_extracted": 10,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:OPERATING_INCOME"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 35,
+        "corroborating": 10,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 15,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "PFE_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 15,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:MRK",
+      "parse_results": [
+        {
+          "source_doc": "MRK_10K_2025.pdf",
+          "ticker": "MRK",
+          "parsed_cleanly": true,
+          "pages": 252,
+          "text_pages": 251,
+          "tables": 122
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 241,
+            "source_doc": "MRK_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Rahway, New Jersey",
+            "page_num": 1,
+            "source_doc": "MRK_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "coverage_flag": true,
+      "ticker": "MRK",
+      "core_metrics_extracted": 9,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY"
+      ],
+      "missing_core_metrics": [
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 38,
+        "corroborating": 7,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 16,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "MRK_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 16,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:ABBV",
+      "parse_results": [
+        {
+          "source_doc": "ABBV_10K_2025.pdf",
+          "ticker": "ABBV",
+          "parsed_cleanly": true,
+          "pages": 199,
+          "text_pages": 186,
+          "tables": 102
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 178,
+            "source_doc": "ABBV_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "North Chicago, Illinois",
+            "page_num": 1,
+            "source_doc": "ABBV_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "ABBV",
+      "core_metrics_extracted": 9,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 35,
+        "corroborating": 3,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 7,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "ABBV_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 7,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:UNH",
+      "parse_results": [
+        {
+          "source_doc": "UNH_10K_2025.pdf",
+          "ticker": "UNH",
+          "parsed_cleanly": true,
+          "pages": 132,
+          "text_pages": 130,
+          "tables": 67
+        }
+      ],
+      "balance_sheet_diagnostics": [
+        {
+          "source_doc": "UNH_10K_2025.pdf",
+          "page_num": 72,
+          "section": "Item 8",
+          "snippet": "Redeemable noncontrolling interests                                                               1,608          4,323",
+          "raw_label": "Redeemable noncontrolling interests",
+          "scale_multiplier": 1000000.0,
+          "values": [
+            {
+              "period": "FY2025",
+              "value_raw": 1608.0,
+              "value_usd": 1608000000.0
+            },
+            {
+              "period": "FY2024",
+              "value_raw": 4323.0,
+              "value_usd": 4323000000.0
+            }
+          ],
+          "note": "Separately labeled redeemable/temporary equity (ASC 480-10-S99-3A scope may apply). The strict Assets - (Liabilities + Equity) residual is unchanged; no balancing value is fabricated."
+        }
+      ],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Deloitte & Touche LLP",
+            "page_num": 71,
+            "source_doc": "UNH_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Eden Prairie, Minnesota",
+            "page_num": 1,
+            "source_doc": "UNH_10K_2025.pdf"
+          },
+          {
+            "target_name": "Washington, District of Columbia",
+            "page_num": 1,
+            "source_doc": "UNH_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "UNH",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 1608000000.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 38,
+        "corroborating": 9,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 12,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "UNH_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 12,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:TMO",
+      "parse_results": [
+        {
+          "source_doc": "TMO_10K_2025.pdf",
+          "ticker": "TMO",
+          "parsed_cleanly": true,
+          "pages": 145,
+          "text_pages": 144,
+          "tables": 89
+        }
+      ],
+      "balance_sheet_diagnostics": [
+        {
+          "source_doc": "TMO_10K_2025.pdf",
+          "page_num": 61,
+          "section": "Item 8",
+          "snippet": "Redeemable noncontrolling interest                                                                   122              120",
+          "raw_label": "Redeemable noncontrolling interest",
+          "scale_multiplier": 1000000.0,
+          "values": [
+            {
+              "period": "FY2025",
+              "value_raw": 122.0,
+              "value_usd": 122000000.0
+            },
+            {
+              "period": "FY2024",
+              "value_raw": 120.0,
+              "value_usd": 120000000.0
+            }
+          ],
+          "note": "Separately labeled redeemable/temporary equity (ASC 480-10-S99-3A scope may apply). The strict Assets - (Liabilities + Equity) residual is unchanged; no balancing value is fabricated."
+        }
+      ],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "PricewaterhouseCoopers LLP",
+            "page_num": 60,
+            "source_doc": "TMO_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Waltham, Massachusetts",
+            "page_num": 1,
+            "source_doc": "TMO_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "TMO",
+      "core_metrics_extracted": 10,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:RD_EXPENSE",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 39,
+        "corroborating": 5,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 15,
+        "rejected_by_provenance_gate": 4,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "TMO_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 15,
+            "rejected_by_provenance_gate": 4,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:WMT",
+      "parse_results": [
+        {
+          "source_doc": "WMT_10K_2026.pdf",
+          "ticker": "WMT",
+          "parsed_cleanly": true,
+          "pages": 136,
+          "text_pages": 135,
+          "tables": 73
+        }
+      ],
+      "balance_sheet_diagnostics": [
+        {
+          "source_doc": "WMT_10K_2026.pdf",
+          "page_num": 87,
+          "section": "Item 8",
+          "snippet": "Redeemable noncontrolling interest                                                                                 293               271",
+          "raw_label": "Redeemable noncontrolling interest",
+          "scale_multiplier": 1000000.0,
+          "values": [
+            {
+              "period": "FY2026",
+              "value_raw": 293.0,
+              "value_usd": 293000000.0
+            },
+            {
+              "period": "FY2025",
+              "value_raw": 271.0,
+              "value_usd": 271000000.0
+            }
+          ],
+          "note": "Separately labeled redeemable/temporary equity (ASC 480-10-S99-3A scope may apply). The strict Assets - (Liabilities + Equity) residual is unchanged; no balancing value is fabricated."
+        }
+      ],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 83,
+            "source_doc": "WMT_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Bentonville, Arkansas",
+            "page_num": 1,
+            "source_doc": "WMT_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "WMT",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:GROSS_PROFIT",
+        "METRIC:RD_EXPENSE",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 40,
+        "corroborating": 10,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 15,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "WMT_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 15,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:COST",
+      "parse_results": [
+        {
+          "source_doc": "COST_10K_2026.pdf",
+          "ticker": "COST",
+          "parsed_cleanly": true,
+          "pages": 106,
+          "text_pages": 101,
+          "tables": 46
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "KPMG LLP",
+            "page_num": 53,
+            "source_doc": "COST_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Issaquah, Washington",
+            "page_num": 1,
+            "source_doc": "COST_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "COST",
+      "core_metrics_extracted": 11,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:EPS_DILUTED",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 37,
+        "corroborating": 6,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 8,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "COST_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 8,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:HD",
+      "parse_results": [
+        {
+          "source_doc": "HD_10K_2026.pdf",
+          "ticker": "HD",
+          "parsed_cleanly": true,
+          "pages": 142,
+          "text_pages": 136,
+          "tables": 92
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "KPMG LLP",
+            "page_num": 71,
+            "source_doc": "HD_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Atlanta, Georgia",
+            "page_num": 1,
+            "source_doc": "HD_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "HD",
+      "core_metrics_extracted": 12,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 40,
+        "corroborating": 9,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 11,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "HD_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 11,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:TGT",
+      "parse_results": [
+        {
+          "source_doc": "TGT_10K_2026.pdf",
+          "ticker": "TGT",
+          "parsed_cleanly": true,
+          "pages": 82,
+          "text_pages": 81,
+          "tables": 89
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 44,
+            "source_doc": "TGT_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Minneapolis, Minnesota",
+            "page_num": 1,
+            "source_doc": "TGT_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": true,
+      "ticker": "TGT",
+      "core_metrics_extracted": 8,
+      "extracted_core_metrics": [
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:RD_EXPENSE",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 26,
+        "corroborating": 2,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 2,
+        "rejected_by_provenance_gate": 0,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "TGT_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 2,
+            "rejected_by_provenance_gate": 0,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:PG",
+      "parse_results": [
+        {
+          "source_doc": "PG_10K_2026.pdf",
+          "ticker": "PG",
+          "parsed_cleanly": true,
+          "pages": 131,
+          "text_pages": 114,
+          "tables": 116
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Deloitte & Touche LLP",
+            "page_num": 67,
+            "source_doc": "PG_10K_2026.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Cincinnati, Ohio",
+            "page_num": 1,
+            "source_doc": "PG_10K_2026.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "PG",
+      "core_metrics_extracted": 10,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2026",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 44,
+        "corroborating": 10,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 25,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "PG_10K_2026.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 25,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:KO",
+      "parse_results": [
+        {
+          "source_doc": "KO_10K_2025.pdf",
+          "ticker": "KO",
+          "parsed_cleanly": true,
+          "pages": 235,
+          "text_pages": 231,
+          "tables": 92
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "Ernst & Young LLP",
+            "page_num": 209,
+            "source_doc": "KO_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Atlanta, Georgia",
+            "page_num": 1,
+            "source_doc": "KO_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "KO",
+      "core_metrics_extracted": 12,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS"
+      ],
+      "missing_core_metrics": [
+        "METRIC:RD_EXPENSE",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": null,
+      "balance_sheet_missing_inputs": [
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "fact_status_counts": {
+        "active": 47,
+        "corroborating": 21,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 31,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "KO_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 31,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    },
+    {
+      "company_id": "COMP:PEP",
+      "parse_results": [
+        {
+          "source_doc": "PEP_10K_2025.pdf",
+          "ticker": "PEP",
+          "parsed_cleanly": true,
+          "pages": 229,
+          "text_pages": 229,
+          "tables": 118
+        }
+      ],
+      "balance_sheet_diagnostics": [],
+      "metadata_coverage": {
+        "AUDITED_BY": [
+          {
+            "target_name": "KPMG LLP",
+            "page_num": 197,
+            "source_doc": "PEP_10K_2025.pdf"
+          }
+        ],
+        "HEADQUARTERED_IN": [
+          {
+            "target_name": "Purchase, New York",
+            "page_num": 1,
+            "source_doc": "PEP_10K_2025.pdf"
+          }
+        ]
+      },
+      "missing_critical_metrics": [],
+      "coverage_flag": false,
+      "ticker": "PEP",
+      "core_metrics_extracted": 12,
+      "extracted_core_metrics": [
+        "METRIC:CAPEX",
+        "METRIC:CASH_AND_EQUIVALENTS",
+        "METRIC:COST_OF_REVENUE",
+        "METRIC:EPS_DILUTED",
+        "METRIC:GROSS_PROFIT",
+        "METRIC:NET_INCOME",
+        "METRIC:OPERATING_CASH_FLOW",
+        "METRIC:OPERATING_INCOME",
+        "METRIC:REVENUE",
+        "METRIC:SHAREHOLDERS_EQUITY",
+        "METRIC:TOTAL_ASSETS",
+        "METRIC:TOTAL_LIABILITIES"
+      ],
+      "missing_core_metrics": [
+        "METRIC:LONG_TERM_DEBT",
+        "METRIC:RD_EXPENSE"
+      ],
+      "latest_period": "FY2025",
+      "balance_sheet_residual_usd": 0.0,
+      "balance_sheet_missing_inputs": [],
+      "fact_status_counts": {
+        "active": 50,
+        "corroborating": 8,
+        "superseded": 0
+      },
+      "llm_relation_extraction": {
+        "candidate_pages_selected": 10,
+        "candidate_pages_sent": 10,
+        "pages_replayed": 0,
+        "accepted_claims": 21,
+        "rejected_by_provenance_gate": 1,
+        "offline_cache_misses": 0,
+        "recorded": true,
+        "filings": [
+          {
+            "source_doc": "PEP_10K_2025.pdf",
+            "candidate_pages_selected": 10,
+            "candidate_pages_sent": 10,
+            "pages_replayed": 0,
+            "accepted_claims": 21,
+            "rejected_by_provenance_gate": 1,
+            "offline_cache_misses": 0,
+            "mode": "live_or_cache"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "companies_total": 35,
+    "companies_parsed_cleanly": 35,
+    "companies_flagged": 10,
+    "auditor_coverage": 34,
+    "hq_coverage": 35,
+    "nonzero_balance_residuals": 1,
+    "unavailable_balance_residuals": 13
+  }
+}

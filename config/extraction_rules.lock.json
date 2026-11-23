@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "predecessor_digest": "c2faacfd6df26aad031288e83574e2376837189ea62d792321419ca6241b7bc1",
+  "scope": "Approved general multi-bucket qualitative extraction and contiguous-quote prompt revision before live smoke testing and benchmark authoring; no issuer-specific rules.",
+  "files": {
+    "config/ontology.py": "b38b7aad7fa9b8a74e3e79bd46a04f89e8c5f68a5199d67f607791f94526f66c",
+    "src/ingest/pdf_parser.py": "573cd8304ac129dd62cddaa84a003be9ce8c7d14b7395fa03cc09db1bf405968",
+    "src/extract/table_extractor.py": "f4883d5d88f7d523d1c97e8484f8d6a9a310cadefd9a1a07e9eb949037515eb9",
+    "src/extract/metadata_extractor.py": "2ca1475a48eece2d381cda43db5aba755d0dfeed92964e7c4d09f10b8dc61aa3",
+    "src/extract/relation_extractor.py": "173c0d1fd79ff6e9542ba29a2f9f7e4013a82e6c886a644168ac839f8b140192",
+    "src/graph/schema.py": "d1fd869f77f50befb4de1520ea9edd1b91c31798b07ddb5c98842e3de10ea95f",
+    "src/graph/entity_resolution.py": "e8e986b1ef2434e169532fa9d59f9b8e67a099899a9cab1839d16fe9f1e41314",
+    "src/graph/builder.py": "bc4b7f91ed27add3e4bd84107d4095b6ed3064f5e5d2c9ac80f2edaffca062f2",
+    "src/extract/freeze.py": "e3964a763ea79a5a7458bc37c9d001d0aedeb41ebee937c12a592ca474d802df"
+  }
+}

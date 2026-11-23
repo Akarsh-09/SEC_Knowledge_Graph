@@ -1,0 +1,1093 @@
+[
+  {
+    "id": "Q01",
+    "type": "single-fact",
+    "question": "What was Microsoft (MSFT) total revenue in FY2025?",
+    "answer_type": "numeric",
+    "golden_answer": 281724000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "MSFT_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:MSFT",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "281724000000"
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "type": "single-fact",
+    "question": "What was Eli Lilly (LLY) net income in FY2025?",
+    "answer_type": "numeric",
+    "golden_answer": 20640000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "LLY_10K_2025.pdf",
+        "page_num": 86,
+        "company_id": "COMP:LLY",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "20640000000"
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "type": "single-fact",
+    "question": "What were AMD diluted earnings per share in FY2025, including discontinued operations?",
+    "answer_type": "numeric",
+    "golden_answer": 2.65,
+    "unit": "USD/share",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "AMD_10K_2025.pdf",
+        "page_num": 90,
+        "company_id": "COMP:AMD",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "2.65"
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "type": "single-fact",
+    "question": "What were UnitedHealth Group (UNH) total assets at December 31, 2025?",
+    "answer_type": "numeric",
+    "golden_answer": 309581000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "UNH_10K_2025.pdf",
+        "page_num": 72,
+        "company_id": "COMP:UNH",
+        "predicate": "METRIC:TOTAL_ASSETS",
+        "period": "FY2025",
+        "expected_value": "309581000000"
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "type": "single-fact",
+    "question": "According to the supplied filings, which company completed the acquisition of Preqin Holding Limited (Preqin)?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:BLK",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "BLK_10K_2025.pdf",
+        "page_num": 133,
+        "company_id": "COMP:BLK",
+        "predicate": "ACQUIRED",
+        "period": null,
+        "expected_value": "Preqin Holding Limited"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "type": "single-fact",
+    "question": "What was Pfizer (PFE) FY2025 cash spending on purchases of property, plant and equipment, expressed as a positive USD amount?",
+    "answer_type": "numeric",
+    "golden_answer": 2629000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "PFE_10K_2025.pdf",
+        "page_num": 117,
+        "company_id": "COMP:PFE",
+        "predicate": "METRIC:CAPEX",
+        "period": "FY2025",
+        "expected_value": "-2629000000"
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "type": "single-fact",
+    "question": "What was Merck (MRK) research and development expense in FY2025?",
+    "answer_type": "numeric",
+    "golden_answer": 15789000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "MRK_10K_2025.pdf",
+        "page_num": 144,
+        "company_id": "COMP:MRK",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "15789000000"
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "type": "single-fact",
+    "question": "Which independent registered public accounting firm signed the financial-statement audit report in the supplied Goldman Sachs (GS) 10-K?",
+    "answer_type": "entity",
+    "golden_answer": "EXT:PWC",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "GS_10K_2025.pdf",
+        "page_num": 317,
+        "company_id": "COMP:GS",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "type": "single-fact",
+    "question": "In which city and state are Costco (COST) principal executive offices located, as printed on the supplied 10-K cover?",
+    "answer_type": "entity",
+    "golden_answer": "Issaquah, WA",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "COST_10K_2026.pdf",
+        "page_num": 1,
+        "company_id": "COMP:COST",
+        "predicate": "HEADQUARTERED_IN",
+        "period": null,
+        "expected_value": "Issaquah, WA"
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "type": "single-fact",
+    "question": "List the five US GAAP reportable segments of Procter & Gamble (PG) named in its supplied segment-information note.",
+    "answer_type": "entity_list",
+    "golden_answer": [
+      "Beauty",
+      "Grooming",
+      "Health Care",
+      "Fabric & Home Care",
+      "Baby, Feminine & Family Care"
+    ],
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "PG_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:PG",
+        "predicate": "OPERATES_SEGMENT",
+        "period": null,
+        "expected_value": "Beauty"
+      },
+      {
+        "doc_id": "PG_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:PG",
+        "predicate": "OPERATES_SEGMENT",
+        "period": null,
+        "expected_value": "Grooming"
+      },
+      {
+        "doc_id": "PG_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:PG",
+        "predicate": "OPERATES_SEGMENT",
+        "period": null,
+        "expected_value": "Health Care"
+      },
+      {
+        "doc_id": "PG_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:PG",
+        "predicate": "OPERATES_SEGMENT",
+        "period": null,
+        "expected_value": "Fabric & Home Care"
+      },
+      {
+        "doc_id": "PG_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:PG",
+        "predicate": "OPERATES_SEGMENT",
+        "period": null,
+        "expected_value": "Baby, Feminine & Family Care"
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "type": "multi-hop",
+    "question": "What was Thermo Fisher Scientific (TMO) FY2025 net margin, using consolidated net income before attribution to noncontrolling interests divided by total revenues, as a percent?",
+    "answer_type": "numeric",
+    "golden_answer": 15.084388185654008,
+    "unit": "percent",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "TMO_10K_2025.pdf",
+        "page_num": 62,
+        "company_id": "COMP:TMO",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "6721000000"
+      },
+      {
+        "doc_id": "TMO_10K_2025.pdf",
+        "page_num": 62,
+        "company_id": "COMP:TMO",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "44556000000"
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "type": "multi-hop",
+    "question": "What was Oracle (ORCL) operating margin in FY2025, defined as operating income divided by total revenues, as a percent?",
+    "answer_type": "numeric",
+    "golden_answer": 30.798445965957594,
+    "unit": "percent",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "ORCL_10K_2026.pdf",
+        "page_num": 116,
+        "company_id": "COMP:ORCL",
+        "predicate": "METRIC:OPERATING_INCOME",
+        "period": "FY2025",
+        "expected_value": "17678000000"
+      },
+      {
+        "doc_id": "ORCL_10K_2026.pdf",
+        "page_num": 116,
+        "company_id": "COMP:ORCL",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "57399000000"
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "type": "multi-hop",
+    "question": "What was Intel (INTC) FY2025 R&D intensity, defined as research and development expense divided by net revenue, as a percent?",
+    "answer_type": "numeric",
+    "golden_answer": 26.060961534823,
+    "unit": "percent",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "INTC_10K_2025.pdf",
+        "page_num": 101,
+        "company_id": "COMP:INTC",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "13774000000"
+      },
+      {
+        "doc_id": "INTC_10K_2025.pdf",
+        "page_num": 101,
+        "company_id": "COMP:INTC",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "52853000000"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "type": "multi-hop",
+    "question": "What was Home Depot (HD) free cash flow in FY2025, defined as operating cash flow minus the absolute value of cash capital expenditures?",
+    "answer_type": "numeric",
+    "golden_answer": 12646000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "HD_10K_2026.pdf",
+        "page_num": 76,
+        "company_id": "COMP:HD",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2025",
+        "expected_value": "16325000000"
+      },
+      {
+        "doc_id": "HD_10K_2026.pdf",
+        "page_num": 76,
+        "company_id": "COMP:HD",
+        "predicate": "METRIC:CAPEX",
+        "period": "FY2025",
+        "expected_value": "-3679000000"
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "type": "multi-hop",
+    "question": "What was Texas Instruments (TXN) revenue growth from FY2024 to FY2025, as a percent?",
+    "answer_type": "numeric",
+    "golden_answer": 13.049037785307846,
+    "unit": "percent",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "TXN_10K_2025.pdf",
+        "page_num": 41,
+        "company_id": "COMP:TXN",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2024",
+        "expected_value": "15641000000"
+      },
+      {
+        "doc_id": "TXN_10K_2025.pdf",
+        "page_num": 41,
+        "company_id": "COMP:TXN",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "17682000000"
+      }
+    ]
+  },
+  {
+    "id": "Q16",
+    "type": "multi-hop",
+    "question": "At December 31, 2025, what was JPMorgan Chase (JPM) ratio of reported long-term debt to total stockholders’ equity?",
+    "answer_type": "numeric",
+    "golden_answer": 1.200773649562132,
+    "unit": "ratio",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 296,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:LONG_TERM_DEBT",
+        "period": "FY2025",
+        "expected_value": "435206000000"
+      },
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 296,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:SHAREHOLDERS_EQUITY",
+        "period": "FY2025",
+        "expected_value": "362438000000"
+      }
+    ]
+  },
+  {
+    "id": "Q17",
+    "type": "multi-hop",
+    "question": "Among the seven Semiconductors companies in the corpus, using the auditor identified in each supplied filing, which PwC-audited company had the highest FY2025 consolidated net income?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:NVDA",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 86,
+        "company_id": "COMP:NVDA",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "AMD_10K_2025.pdf",
+        "page_num": 144,
+        "company_id": "COMP:AMD",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "INTC_10K_2025.pdf",
+        "page_num": 99,
+        "company_id": "COMP:INTC",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "QCOM_10K_2026.pdf",
+        "page_num": 93,
+        "company_id": "COMP:QCOM",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "AVGO_10K_2025.pdf",
+        "page_num": 84,
+        "company_id": "COMP:AVGO",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "TXN_10K_2025.pdf",
+        "page_num": 91,
+        "company_id": "COMP:TXN",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "MU_10K_2026.pdf",
+        "page_num": 162,
+        "company_id": "COMP:MU",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 87,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "72880000000"
+      },
+      {
+        "doc_id": "QCOM_10K_2026.pdf",
+        "page_num": 95,
+        "company_id": "COMP:QCOM",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "5541000000"
+      },
+      {
+        "doc_id": "AVGO_10K_2025.pdf",
+        "page_num": 87,
+        "company_id": "COMP:AVGO",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "23126000000"
+      },
+      {
+        "doc_id": "MU_10K_2026.pdf",
+        "page_num": 112,
+        "company_id": "COMP:MU",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "8539000000"
+      }
+    ]
+  },
+  {
+    "id": "Q18",
+    "type": "multi-hop",
+    "question": "Among Costco (COST), Home Depot (HD) and Target (TGT), what was the FY2025 operating margin of the company whose supplied cover lists principal executive offices in Issaquah, WA? Give a percent using total revenue.",
+    "answer_type": "numeric",
+    "golden_answer": 3.7724126655403563,
+    "unit": "percent",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "COST_10K_2026.pdf",
+        "page_num": 1,
+        "company_id": "COMP:COST",
+        "predicate": "HEADQUARTERED_IN",
+        "period": null,
+        "expected_value": "Issaquah, WA"
+      },
+      {
+        "doc_id": "HD_10K_2026.pdf",
+        "page_num": 1,
+        "company_id": "COMP:HD",
+        "predicate": "HEADQUARTERED_IN",
+        "period": null,
+        "expected_value": "Atlanta, Georgia"
+      },
+      {
+        "doc_id": "TGT_10K_2026.pdf",
+        "page_num": 1,
+        "company_id": "COMP:TGT",
+        "predicate": "HEADQUARTERED_IN",
+        "period": null,
+        "expected_value": "Minneapolis, Minnesota"
+      },
+      {
+        "doc_id": "COST_10K_2026.pdf",
+        "page_num": 56,
+        "company_id": "COMP:COST",
+        "predicate": "METRIC:OPERATING_INCOME",
+        "period": "FY2025",
+        "expected_value": "10383000000"
+      },
+      {
+        "doc_id": "COST_10K_2026.pdf",
+        "page_num": 56,
+        "company_id": "COMP:COST",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "275235000000"
+      }
+    ]
+  },
+  {
+    "id": "Q19",
+    "type": "multi-hop",
+    "question": "Among Eli Lilly (LLY), Pfizer (PFE) and Merck (MRK), who is identified as CEO in the supplied filing of the company with the highest FY2025 research and development expense?",
+    "answer_type": "entity",
+    "golden_answer": "Robert M. Davis",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "LLY_10K_2025.pdf",
+        "page_num": 86,
+        "company_id": "COMP:LLY",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "13337000000"
+      },
+      {
+        "doc_id": "PFE_10K_2025.pdf",
+        "page_num": 109,
+        "company_id": "COMP:PFE",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "10437000000"
+      },
+      {
+        "doc_id": "MRK_10K_2025.pdf",
+        "page_num": 144,
+        "company_id": "COMP:MRK",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "15789000000"
+      },
+      {
+        "doc_id": "MRK_10K_2025.pdf",
+        "page_num": 84,
+        "company_id": "COMP:MRK",
+        "predicate": "HAS_CEO",
+        "period": null,
+        "expected_value": "Robert M. Davis"
+      }
+    ]
+  },
+  {
+    "id": "Q20",
+    "type": "multi-hop",
+    "question": "Among Apple (AAPL), Microsoft (MSFT) and Alphabet (GOOGL), using the auditor identified in each supplied filing, which EY-audited company had the highest FY2025 free cash flow, defined as operating cash flow minus cash purchases of property, plant and equipment?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:AAPL",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 85,
+        "company_id": "COMP:AAPL",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "MSFT_10K_2026.pdf",
+        "page_num": 138,
+        "company_id": "COMP:MSFT",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "DELOITTE & TOUCHE LLP"
+      },
+      {
+        "doc_id": "GOOGL_10K_2025.pdf",
+        "page_num": 83,
+        "company_id": "COMP:GOOGL",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 57,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2025",
+        "expected_value": "111482000000"
+      },
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 57,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:CAPEX",
+        "period": "FY2025",
+        "expected_value": "-12715000000"
+      },
+      {
+        "doc_id": "GOOGL_10K_2025.pdf",
+        "page_num": 90,
+        "company_id": "COMP:GOOGL",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2025",
+        "expected_value": "164713000000"
+      },
+      {
+        "doc_id": "GOOGL_10K_2025.pdf",
+        "page_num": 90,
+        "company_id": "COMP:GOOGL",
+        "predicate": "METRIC:CAPEX",
+        "period": "FY2025",
+        "expected_value": "-91447000000"
+      }
+    ]
+  },
+  {
+    "id": "Q21",
+    "type": "cross-filing",
+    "question": "What was the FY2025 revenue difference, Coca-Cola (KO) minus PepsiCo (PEP), in USD?",
+    "answer_type": "numeric",
+    "golden_answer": -45984000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "KO_10K_2025.pdf",
+        "page_num": 113,
+        "company_id": "COMP:KO",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "47941000000"
+      },
+      {
+        "doc_id": "PEP_10K_2025.pdf",
+        "page_num": 110,
+        "company_id": "COMP:PEP",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "93925000000"
+      }
+    ]
+  },
+  {
+    "id": "Q22",
+    "type": "cross-filing",
+    "question": "What was the FY2025 net income difference, JPMorgan Chase (JPM) minus Bank of America (BAC), before preferred dividends, in USD?",
+    "answer_type": "numeric",
+    "golden_answer": 26539000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 294,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "57048000000"
+      },
+      {
+        "doc_id": "BAC_10K_2025.pdf",
+        "page_num": 186,
+        "company_id": "COMP:BAC",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "30509000000"
+      }
+    ]
+  },
+  {
+    "id": "Q23",
+    "type": "cross-filing",
+    "question": "What was the ratio of NVIDIA (NVDA) FY2025 research and development expense to AMD FY2025 research and development expense?",
+    "answer_type": "numeric",
+    "golden_answer": 1.596094425905327,
+    "unit": "ratio",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 87,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "12914000000"
+      },
+      {
+        "doc_id": "AMD_10K_2025.pdf",
+        "page_num": 90,
+        "company_id": "COMP:AMD",
+        "predicate": "METRIC:RD_EXPENSE",
+        "period": "FY2025",
+        "expected_value": "8091000000"
+      }
+    ]
+  },
+  {
+    "id": "Q24",
+    "type": "cross-filing",
+    "question": "Which company had higher total revenue in FY2025: Eli Lilly (LLY) or Pfizer (PFE)?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:LLY",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "LLY_10K_2025.pdf",
+        "page_num": 86,
+        "company_id": "COMP:LLY",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "65179000000"
+      },
+      {
+        "doc_id": "PFE_10K_2025.pdf",
+        "page_num": 109,
+        "company_id": "COMP:PFE",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "62579000000"
+      }
+    ]
+  },
+  {
+    "id": "Q25",
+    "type": "cross-filing",
+    "question": "What was the FY2025 operating cash flow difference, Walmart (WMT) minus Costco (COST), in USD?",
+    "answer_type": "numeric",
+    "golden_answer": 23108000000.0,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "WMT_10K_2026.pdf",
+        "page_num": 90,
+        "company_id": "COMP:WMT",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2025",
+        "expected_value": "36443000000"
+      },
+      {
+        "doc_id": "COST_10K_2026.pdf",
+        "page_num": 60,
+        "company_id": "COMP:COST",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2025",
+        "expected_value": "13335000000"
+      }
+    ]
+  },
+  {
+    "id": "Q26",
+    "type": "cross-filing",
+    "question": "Which of the seven Healthcare & Pharma companies in the corpus had the highest reported total revenue in FY2025?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:UNH",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "LLY_10K_2025.pdf",
+        "page_num": 86,
+        "company_id": "COMP:LLY",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "65179000000"
+      },
+      {
+        "doc_id": "JNJ_10K_2025.pdf",
+        "page_num": 52,
+        "company_id": "COMP:JNJ",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "94193000000"
+      },
+      {
+        "doc_id": "PFE_10K_2025.pdf",
+        "page_num": 109,
+        "company_id": "COMP:PFE",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "62579000000"
+      },
+      {
+        "doc_id": "MRK_10K_2025.pdf",
+        "page_num": 144,
+        "company_id": "COMP:MRK",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "65011000000"
+      },
+      {
+        "doc_id": "ABBV_10K_2025.pdf",
+        "page_num": 96,
+        "company_id": "COMP:ABBV",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "61160000000"
+      },
+      {
+        "doc_id": "UNH_10K_2025.pdf",
+        "page_num": 73,
+        "company_id": "COMP:UNH",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "447567000000"
+      },
+      {
+        "doc_id": "TMO_10K_2025.pdf",
+        "page_num": 62,
+        "company_id": "COMP:TMO",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "44556000000"
+      }
+    ]
+  },
+  {
+    "id": "Q27",
+    "type": "cross-filing",
+    "question": "Rank the top 3 companies in the Big Tech & Cloud sector of the corpus by FY2025 net income, highest first.",
+    "answer_type": "entity_list",
+    "golden_answer": [
+      "COMP:GOOGL",
+      "COMP:AAPL",
+      "COMP:MSFT"
+    ],
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 52,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "112010000000"
+      },
+      {
+        "doc_id": "MSFT_10K_2026.pdf",
+        "page_num": 82,
+        "company_id": "COMP:MSFT",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "101832000000"
+      },
+      {
+        "doc_id": "GOOGL_10K_2025.pdf",
+        "page_num": 87,
+        "company_id": "COMP:GOOGL",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "132170000000"
+      },
+      {
+        "doc_id": "AMZN_10K_2025.pdf",
+        "page_num": 61,
+        "company_id": "COMP:AMZN",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "77670000000"
+      },
+      {
+        "doc_id": "META_10K_2025.pdf",
+        "page_num": 150,
+        "company_id": "COMP:META",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "60458000000"
+      },
+      {
+        "doc_id": "ORCL_10K_2026.pdf",
+        "page_num": 116,
+        "company_id": "COMP:ORCL",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "12443000000"
+      },
+      {
+        "doc_id": "CRM_10K_2026.pdf",
+        "page_num": 104,
+        "company_id": "COMP:CRM",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "6197000000"
+      }
+    ],
+    "order_sensitive": true
+  },
+  {
+    "id": "Q28",
+    "type": "cross-filing",
+    "question": "Among JPMorgan Chase (JPM), Bank of America (BAC), Goldman Sachs (GS), Morgan Stanley (MS), Citigroup (C) and BlackRock (BLK), which had the lowest FY2025 diluted earnings per share?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:BAC",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 294,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "20.02"
+      },
+      {
+        "doc_id": "BAC_10K_2025.pdf",
+        "page_num": 186,
+        "company_id": "COMP:BAC",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "3.81"
+      },
+      {
+        "doc_id": "GS_10K_2025.pdf",
+        "page_num": 318,
+        "company_id": "COMP:GS",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "51.32"
+      },
+      {
+        "doc_id": "MS_10K_2025.pdf",
+        "page_num": 208,
+        "company_id": "COMP:MS",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "10.21"
+      },
+      {
+        "doc_id": "C_10K_2025.pdf",
+        "page_num": 190,
+        "company_id": "COMP:C",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "6.99"
+      },
+      {
+        "doc_id": "BLK_10K_2025.pdf",
+        "page_num": 117,
+        "company_id": "COMP:BLK",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "35.31"
+      }
+    ]
+  },
+  {
+    "id": "Q29",
+    "type": "cross-filing",
+    "question": "List all companies in the corpus Semiconductors sector whose supplied financial-statement audit report is signed by Ernst & Young (EY).",
+    "answer_type": "entity_list",
+    "golden_answer": [
+      "COMP:AMD",
+      "COMP:INTC",
+      "COMP:TXN"
+    ],
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 86,
+        "company_id": "COMP:NVDA",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "AMD_10K_2025.pdf",
+        "page_num": 144,
+        "company_id": "COMP:AMD",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "INTC_10K_2025.pdf",
+        "page_num": 99,
+        "company_id": "COMP:INTC",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "QCOM_10K_2026.pdf",
+        "page_num": 93,
+        "company_id": "COMP:QCOM",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "AVGO_10K_2025.pdf",
+        "page_num": 84,
+        "company_id": "COMP:AVGO",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "TXN_10K_2025.pdf",
+        "page_num": 91,
+        "company_id": "COMP:TXN",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "MU_10K_2026.pdf",
+        "page_num": 162,
+        "company_id": "COMP:MU",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      }
+    ]
+  },
+  {
+    "id": "Q30",
+    "type": "cross-filing",
+    "question": "How many of the seven Financials companies in the corpus identify Delaware as their state of incorporation on the supplied 10-K cover?",
+    "answer_type": "numeric",
+    "golden_answer": 7,
+    "unit": "count",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:JPM",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      },
+      {
+        "doc_id": "BAC_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:BAC",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      },
+      {
+        "doc_id": "GS_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:GS",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      },
+      {
+        "doc_id": "MS_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:MS",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      },
+      {
+        "doc_id": "WFC_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:WFC",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      },
+      {
+        "doc_id": "C_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:C",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      },
+      {
+        "doc_id": "BLK_10K_2025.pdf",
+        "page_num": 1,
+        "company_id": "COMP:BLK",
+        "predicate": "INCORPORATED_IN",
+        "period": null,
+        "expected_value": "Delaware"
+      }
+    ]
+  }
+]

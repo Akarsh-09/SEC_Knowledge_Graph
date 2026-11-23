@@ -1,0 +1,194 @@
+[
+  {
+    "id": "S01",
+    "type": "single-fact",
+    "question": "What was NVDA revenue in FY2026?",
+    "answer_type": "numeric",
+    "golden_answer": 215938000000,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 87,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2026",
+        "expected_value": "215938000000"
+      }
+    ]
+  },
+  {
+    "id": "S02",
+    "type": "single-fact",
+    "question": "What was JPM diluted EPS in FY2025?",
+    "answer_type": "numeric",
+    "golden_answer": 20.02,
+    "unit": "USD/share",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 294,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:EPS_DILUTED",
+        "period": "FY2025",
+        "expected_value": "20.02"
+      }
+    ]
+  },
+  {
+    "id": "S03",
+    "type": "multi-hop",
+    "question": "Among NVDA, AAPL and JPM audited by PwC, which had the highest net margin in FY2025?",
+    "answer_type": "entity",
+    "golden_answer": "COMP:NVDA",
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 86,
+        "company_id": "COMP:NVDA",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 289,
+        "company_id": "COMP:JPM",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "PricewaterhouseCoopers LLP"
+      },
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 87,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "72880000000"
+      },
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 87,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "130497000000"
+      },
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 294,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:NET_INCOME",
+        "period": "FY2025",
+        "expected_value": "57048000000"
+      },
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 294,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "182447000000"
+      }
+    ]
+  },
+  {
+    "id": "S04",
+    "type": "multi-hop",
+    "question": "Among NVDA, AAPL and JPM audited by EY, what was free cash flow in FY2026?",
+    "answer_type": "numeric",
+    "golden_answer": 136056000000,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 85,
+        "company_id": "COMP:AAPL",
+        "predicate": "AUDITED_BY",
+        "period": null,
+        "expected_value": "Ernst & Young LLP"
+      },
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 57,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2026",
+        "expected_value": "145097000000"
+      },
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 57,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:CAPEX",
+        "period": "FY2026",
+        "expected_value": "-9041000000"
+      }
+    ]
+  },
+  {
+    "id": "S05",
+    "type": "cross-filing",
+    "question": "Rank NVDA, AAPL and JPM by revenue in FY2025.",
+    "answer_type": "entity_list",
+    "golden_answer": [
+      "COMP:AAPL",
+      "COMP:JPM",
+      "COMP:NVDA"
+    ],
+    "unit": null,
+    "gold_supporting_facts": [
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 52,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "416161000000"
+      },
+      {
+        "doc_id": "JPM_10K_2025.pdf",
+        "page_num": 294,
+        "company_id": "COMP:JPM",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "182447000000"
+      },
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 87,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:REVENUE",
+        "period": "FY2025",
+        "expected_value": "130497000000"
+      }
+    ]
+  },
+  {
+    "id": "S06",
+    "type": "cross-filing",
+    "question": "What was the difference in operating cash flow between NVDA and AAPL in FY2026?",
+    "answer_type": "numeric",
+    "golden_answer": -42379000000,
+    "unit": "USD",
+    "gold_supporting_facts": [
+      {
+        "doc_id": "NVDA_10K_2026.pdf",
+        "page_num": 91,
+        "company_id": "COMP:NVDA",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2026",
+        "expected_value": "102718000000"
+      },
+      {
+        "doc_id": "AAPL_10K_2026.pdf",
+        "page_num": 57,
+        "company_id": "COMP:AAPL",
+        "predicate": "METRIC:OPERATING_CASH_FLOW",
+        "period": "FY2026",
+        "expected_value": "145097000000"
+      }
+    ]
+  }
+]

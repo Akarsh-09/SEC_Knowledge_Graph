@@ -1,0 +1,212 @@
+[
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "name": "NVIDIA",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "0000002488",
+    "name": "Advanced Micro Devices",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "INTC",
+    "cik": "0000050863",
+    "name": "Intel",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "QCOM",
+    "cik": "0000804328",
+    "name": "Qualcomm",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "AVGO",
+    "cik": "0001730168",
+    "name": "Broadcom",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "TXN",
+    "cik": "0000097476",
+    "name": "Texas Instruments",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "MU",
+    "cik": "0000723125",
+    "name": "Micron Technology",
+    "sector": "Semiconductors"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "name": "Apple",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "name": "Microsoft",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "0001652044",
+    "name": "Alphabet",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "0001018724",
+    "name": "Amazon",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "name": "Meta Platforms",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "ORCL",
+    "cik": "0001341439",
+    "name": "Oracle",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "name": "Salesforce",
+    "sector": "Big Tech & Cloud"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "0000019617",
+    "name": "JPMorgan Chase",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "0000070858",
+    "name": "Bank of America",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "GS",
+    "cik": "0000886982",
+    "name": "Goldman Sachs",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "MS",
+    "cik": "0000895421",
+    "name": "Morgan Stanley",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "WFC",
+    "cik": "0000072971",
+    "name": "Wells Fargo",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "C",
+    "cik": "0000831001",
+    "name": "Citigroup",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "BLK",
+    "cik": "0002012383",
+    "name": "BlackRock",
+    "sector": "Financials"
+  },
+  {
+    "ticker": "LLY",
+    "cik": "0000059478",
+    "name": "Eli Lilly",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "0000200406",
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "0000078003",
+    "name": "Pfizer",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "MRK",
+    "cik": "0000310158",
+    "name": "Merck",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "0001551152",
+    "name": "AbbVie",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "0000731766",
+    "name": "UnitedHealth Group",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "TMO",
+    "cik": "0000097745",
+    "name": "Thermo Fisher Scientific",
+    "sector": "Healthcare & Pharma"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "0000104169",
+    "name": "Walmart",
+    "sector": "Retail & Consumer"
+  },
+  {
+    "ticker": "COST",
+    "cik": "0000909832",
+    "name": "Costco",
+    "sector": "Retail & Consumer"
+  },
+  {
+    "ticker": "HD",
+    "cik": "0000354950",
+    "name": "Home Depot",
+    "sector": "Retail & Consumer"
+  },
+  {
+    "ticker": "TGT",
+    "cik": "0000027419",
+    "name": "Target",
+    "sector": "Retail & Consumer"
+  },
+  {
+    "ticker": "PG",
+    "cik": "0000080424",
+    "name": "Procter & Gamble",
+    "sector": "Retail & Consumer"
+  },
+  {
+    "ticker": "KO",
+    "cik": "0000021344",
+    "name": "Coca-Cola",
+    "sector": "Retail & Consumer"
+  },
+  {
+    "ticker": "PEP",
+    "cik": "0000077476",
+    "name": "PepsiCo",
+    "sector": "Retail & Consumer"
+  }
+]

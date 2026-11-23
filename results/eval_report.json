@@ -1,0 +1,4484 @@
+{
+  "benchmark": "/Users/akarshjain/Desktop/genloop-th-assignment/benchmark/questions.json",
+  "question_count": 30,
+  "extraction_rules_digest": "d1cd573dffd1ad457748f377d98b45c160710ccb807ee9f2e89f7da6b2c4010e",
+  "benchmark_sha256": "10c2422456a5efdb3b29cb6844e0a04daefde3a308f778cc9770d143e5454add",
+  "requested_offline": true,
+  "groups": {
+    "single-fact": {
+      "questions": 10,
+      "accuracy": 0.7,
+      "strict": {
+        "precision_macro": 0.7,
+        "recall_macro": 0.7,
+        "precision_micro": 0.3181818181818182,
+        "recall_micro": 0.5,
+        "matched_facts": 7,
+        "retrieved_facts": 22,
+        "gold_facts": 14
+      },
+      "page_plus_minus_1": {
+        "precision_macro": 0.7,
+        "recall_macro": 0.7,
+        "precision_micro": 0.3181818181818182,
+        "recall_micro": 0.5,
+        "matched_facts": 7,
+        "retrieved_facts": 22,
+        "gold_facts": 14
+      }
+    },
+    "multi-hop": {
+      "questions": 10,
+      "accuracy": 0.9,
+      "strict": {
+        "precision_macro": 0.9,
+        "recall_macro": 0.8184415584415584,
+        "precision_micro": 1.0,
+        "recall_micro": 0.7435897435897436,
+        "matched_facts": 29,
+        "retrieved_facts": 29,
+        "gold_facts": 39
+      },
+      "page_plus_minus_1": {
+        "precision_macro": 0.9,
+        "recall_macro": 0.8184415584415584,
+        "precision_micro": 1.0,
+        "recall_micro": 0.7435897435897436,
+        "matched_facts": 29,
+        "retrieved_facts": 29,
+        "gold_facts": 39
+      }
+    },
+    "cross-filing": {
+      "questions": 10,
+      "accuracy": 0.8,
+      "strict": {
+        "precision_macro": 1.0,
+        "recall_macro": 0.861904761904762,
+        "precision_micro": 1.0,
+        "recall_micro": 0.7954545454545454,
+        "matched_facts": 35,
+        "retrieved_facts": 35,
+        "gold_facts": 44
+      },
+      "page_plus_minus_1": {
+        "precision_macro": 1.0,
+        "recall_macro": 0.861904761904762,
+        "precision_micro": 1.0,
+        "recall_micro": 0.7954545454545454,
+        "matched_facts": 35,
+        "retrieved_facts": 35,
+        "gold_facts": 44
+      }
+    },
+    "Overall": {
+      "questions": 30,
+      "accuracy": 0.8,
+      "strict": {
+        "precision_macro": 0.8666666666666667,
+        "recall_macro": 0.7934487734487734,
+        "precision_micro": 0.8255813953488372,
+        "recall_micro": 0.7319587628865979,
+        "matched_facts": 71,
+        "retrieved_facts": 86,
+        "gold_facts": 97
+      },
+      "page_plus_minus_1": {
+        "precision_macro": 0.8666666666666667,
+        "recall_macro": 0.7934487734487734,
+        "precision_micro": 0.8255813953488372,
+        "recall_micro": 0.7319587628865979,
+        "matched_facts": 71,
+        "retrieved_facts": 86,
+        "gold_facts": 97
+      }
+    }
+  },
+  "planner_source_breakdown": {
+    "llm_cache": 29,
+    "deterministic_fallback": 1
+  },
+  "abstentions": 4,
+  "questions": [
+    {
+      "id": "Q01",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:a5f0a05f0033637c429e",
+              "source_doc": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 281724000000.0,
+              "snippet": "   Total revenue                                                     331,839      281,724      245,122"
+            },
+            "gold": {
+              "doc_id": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "281724000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:a5f0a05f0033637c429e",
+              "source_doc": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 281724000000.0,
+              "snippet": "   Total revenue                                                     331,839      281,724      245,122"
+            },
+            "gold": {
+              "doc_id": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "281724000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q02",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:b9e844c03fe55d56fc27",
+              "source_doc": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 20640000000.0,
+              "snippet": "Net income                                                $     20,640  $     10,590  $      5,240"
+            },
+            "gold": {
+              "doc_id": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "20640000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:b9e844c03fe55d56fc27",
+              "source_doc": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 20640000000.0,
+              "snippet": "Net income                                                $     20,640  $     10,590  $      5,240"
+            },
+            "gold": {
+              "doc_id": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "20640000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q03",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:9d71f401523d6cfa342c",
+              "source_doc": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "value": 2.65,
+              "snippet": "Diluted earnings per share                              $         2.65  $          1.00  $          0.53"
+            },
+            "gold": {
+              "doc_id": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "expected_value": "2.65"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:9d71f401523d6cfa342c",
+              "source_doc": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "value": 2.65,
+              "snippet": "Diluted earnings per share                              $         2.65  $          1.00  $          0.53"
+            },
+            "gold": {
+              "doc_id": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "expected_value": "2.65"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q04",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:79cb464e7d84d1c2be94",
+              "source_doc": "UNH_10K_2025.pdf",
+              "page_num": 72,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:TOTAL_ASSETS",
+              "period": "FY2025",
+              "value": 309581000000.0,
+              "snippet": "Total assets                                                                     $    309,581  $    298,278"
+            },
+            "gold": {
+              "doc_id": "UNH_10K_2025.pdf",
+              "page_num": 72,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:TOTAL_ASSETS",
+              "period": "FY2025",
+              "expected_value": "309581000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:79cb464e7d84d1c2be94",
+              "source_doc": "UNH_10K_2025.pdf",
+              "page_num": 72,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:TOTAL_ASSETS",
+              "period": "FY2025",
+              "value": 309581000000.0,
+              "snippet": "Total assets                                                                     $    309,581  $    298,278"
+            },
+            "gold": {
+              "doc_id": "UNH_10K_2025.pdf",
+              "page_num": 72,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:TOTAL_ASSETS",
+              "period": "FY2025",
+              "expected_value": "309581000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q05",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:01cb81d53d781741ed74",
+              "source_doc": "BLK_10K_2025.pdf",
+              "page_num": 133,
+              "company_id": "COMP:BLK",
+              "predicate": "ACQUIRED",
+              "period": null,
+              "value": "Preqin Holding Limited",
+              "snippet": "On March 3, 2025, BlackRock completed the acquisition of 100% of the shares of Preqin Holding Limited (the \"Preqin Transaction\" or\n\"Preqin\"), a leading provider of private markets data, for \u00a32.5 billion (or approximately $3.2 billion) in cash."
+            },
+            "gold": {
+              "doc_id": "BLK_10K_2025.pdf",
+              "page_num": 133,
+              "company_id": "COMP:BLK",
+              "predicate": "ACQUIRED",
+              "period": null,
+              "expected_value": "Preqin Holding Limited"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:01cb81d53d781741ed74",
+              "source_doc": "BLK_10K_2025.pdf",
+              "page_num": 133,
+              "company_id": "COMP:BLK",
+              "predicate": "ACQUIRED",
+              "period": null,
+              "value": "Preqin Holding Limited",
+              "snippet": "On March 3, 2025, BlackRock completed the acquisition of 100% of the shares of Preqin Holding Limited (the \"Preqin Transaction\" or\n\"Preqin\"), a leading provider of private markets data, for \u00a32.5 billion (or approximately $3.2 billion) in cash."
+            },
+            "gold": {
+              "doc_id": "BLK_10K_2025.pdf",
+              "page_num": 133,
+              "company_id": "COMP:BLK",
+              "predicate": "ACQUIRED",
+              "period": null,
+              "expected_value": "Preqin Holding Limited"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q06",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:5a77106695bc0e1aeff4",
+              "source_doc": "PFE_10K_2025.pdf",
+              "page_num": 117,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 2629000000.0,
+              "snippet": "Purchases of property, plant and equipment                                                                             (2,629)        (2,909)        (3,907)"
+            },
+            "gold": {
+              "doc_id": "PFE_10K_2025.pdf",
+              "page_num": 117,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-2629000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:5a77106695bc0e1aeff4",
+              "source_doc": "PFE_10K_2025.pdf",
+              "page_num": 117,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 2629000000.0,
+              "snippet": "Purchases of property, plant and equipment                                                                             (2,629)        (2,909)        (3,907)"
+            },
+            "gold": {
+              "doc_id": "PFE_10K_2025.pdf",
+              "page_num": 117,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-2629000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q07",
+      "type": "single-fact",
+      "correct": true,
+      "strict": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:bc87f35ceab6630cc3c2",
+              "source_doc": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 15789000000.0,
+              "snippet": "  Research and development                                                                      15,789        17,938        30,531"
+            },
+            "gold": {
+              "doc_id": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "15789000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 1,
+        "retrieved_count": 1,
+        "gold_count": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:bc87f35ceab6630cc3c2",
+              "source_doc": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 15789000000.0,
+              "snippet": "  Research and development                                                                      15,789        17,938        30,531"
+            },
+            "gold": {
+              "doc_id": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "15789000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q08",
+      "type": "single-fact",
+      "correct": false,
+      "strict": {
+        "matched_count": 0,
+        "retrieved_count": 0,
+        "gold_count": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "GS_10K_2025.pdf",
+            "page_num": 317,
+            "company_id": "COMP:GS",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 0,
+        "retrieved_count": 0,
+        "gold_count": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "GS_10K_2025.pdf",
+            "page_num": 317,
+            "company_id": "COMP:GS",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q09",
+      "type": "single-fact",
+      "correct": false,
+      "strict": {
+        "matched_count": 0,
+        "retrieved_count": 0,
+        "gold_count": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "COST_10K_2026.pdf",
+            "page_num": 1,
+            "company_id": "COMP:COST",
+            "predicate": "HEADQUARTERED_IN",
+            "period": null,
+            "expected_value": "Issaquah, WA"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 0,
+        "retrieved_count": 0,
+        "gold_count": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "COST_10K_2026.pdf",
+            "page_num": 1,
+            "company_id": "COMP:COST",
+            "predicate": "HEADQUARTERED_IN",
+            "period": null,
+            "expected_value": "Issaquah, WA"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q10",
+      "type": "single-fact",
+      "correct": false,
+      "strict": {
+        "matched_count": 0,
+        "retrieved_count": 15,
+        "gold_count": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Beauty"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Grooming"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Health Care"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Fabric & Home Care"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Baby, Feminine & Family Care"
+          }
+        ],
+        "extra_facts": [
+          {
+            "fact_id": "FACT:9186e4cd4be69901932b",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 44,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Beauty",
+            "snippet": "Global market share of the Beauty segment decreased 0.3 points."
+          },
+          {
+            "fact_id": "FACT:6d52b3df90a4fe52db22",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 44,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Grooming",
+            "snippet": "Grooming"
+          },
+          {
+            "fact_id": "FACT:3706044ff2a543252120",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 60,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Health Care",
+            "snippet": "Health Care                                           4 %                (3) %      \u2014 %             1 %"
+          },
+          {
+            "fact_id": "FACT:a199f6f20e58855c5589",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 60,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Fabric & Home Care",
+            "snippet": "Fabric & Home Care                                   2 %                (1) %      \u2014 %             1 %"
+          },
+          {
+            "fact_id": "FACT:d6670f55e85fbb28251e",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 60,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Baby, Feminine & Family Care",
+            "snippet": "Baby, Feminine & Family Care                           1 %                (2) %      \u2014 %               (1) %"
+          },
+          {
+            "fact_id": "FACT:91bccfcc1597358700e0",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Fabric Care",
+            "snippet": "Fabric Care                                             23%        23%        24%"
+          },
+          {
+            "fact_id": "FACT:d848e6e01eb132dbaadd",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Home Care",
+            "snippet": "Home Care                                              12%        13%        12%"
+          },
+          {
+            "fact_id": "FACT:1f525e6d46e3a94f20ec",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Baby Care",
+            "snippet": "Baby Care                                         9%        9%        9%"
+          },
+          {
+            "fact_id": "FACT:f5c4697dc486e4553404",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Hair Care",
+            "snippet": "Hair Care                                          9%        9%        9%"
+          },
+          {
+            "fact_id": "FACT:bf1e73d8dfc1ae4df2e9",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Family Care",
+            "snippet": "Family Care                                        8%        9%        9%"
+          },
+          {
+            "fact_id": "FACT:f01f38d7a8a97d06812b",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Oral Care",
+            "snippet": "Oral Care                                          8%        8%        8%"
+          },
+          {
+            "fact_id": "FACT:9ea5c7e90799bc7ca93a",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Feminine Care",
+            "snippet": "Feminine Care                                       7%        6%        6%"
+          },
+          {
+            "fact_id": "FACT:2d638a15c1f6819040b2",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Personal Health Care",
+            "snippet": "Personal Health Care                                    6%        6%        6%"
+          },
+          {
+            "fact_id": "FACT:9506ba833420905c3b67",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Personal Care",
+            "snippet": "Personal Care (1)                                      6%        6%        5%"
+          },
+          {
+            "fact_id": "FACT:d33448e3ea85555329cf",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Skin Care",
+            "snippet": "Skin Care (1)                                        4%        3%        4%"
+          }
+        ]
+      },
+      "page_plus_minus_1": {
+        "matched_count": 0,
+        "retrieved_count": 15,
+        "gold_count": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Beauty"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Grooming"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Health Care"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Fabric & Home Care"
+          },
+          {
+            "doc_id": "PG_10K_2026.pdf",
+            "page_num": 82,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "expected_value": "Baby, Feminine & Family Care"
+          }
+        ],
+        "extra_facts": [
+          {
+            "fact_id": "FACT:9186e4cd4be69901932b",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 44,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Beauty",
+            "snippet": "Global market share of the Beauty segment decreased 0.3 points."
+          },
+          {
+            "fact_id": "FACT:6d52b3df90a4fe52db22",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 44,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Grooming",
+            "snippet": "Grooming"
+          },
+          {
+            "fact_id": "FACT:3706044ff2a543252120",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 60,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Health Care",
+            "snippet": "Health Care                                           4 %                (3) %      \u2014 %             1 %"
+          },
+          {
+            "fact_id": "FACT:a199f6f20e58855c5589",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 60,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Fabric & Home Care",
+            "snippet": "Fabric & Home Care                                   2 %                (1) %      \u2014 %             1 %"
+          },
+          {
+            "fact_id": "FACT:d6670f55e85fbb28251e",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 60,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Baby, Feminine & Family Care",
+            "snippet": "Baby, Feminine & Family Care                           1 %                (2) %      \u2014 %               (1) %"
+          },
+          {
+            "fact_id": "FACT:91bccfcc1597358700e0",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Fabric Care",
+            "snippet": "Fabric Care                                             23%        23%        24%"
+          },
+          {
+            "fact_id": "FACT:d848e6e01eb132dbaadd",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Home Care",
+            "snippet": "Home Care                                              12%        13%        12%"
+          },
+          {
+            "fact_id": "FACT:1f525e6d46e3a94f20ec",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Baby Care",
+            "snippet": "Baby Care                                         9%        9%        9%"
+          },
+          {
+            "fact_id": "FACT:f5c4697dc486e4553404",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Hair Care",
+            "snippet": "Hair Care                                          9%        9%        9%"
+          },
+          {
+            "fact_id": "FACT:bf1e73d8dfc1ae4df2e9",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Family Care",
+            "snippet": "Family Care                                        8%        9%        9%"
+          },
+          {
+            "fact_id": "FACT:f01f38d7a8a97d06812b",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Oral Care",
+            "snippet": "Oral Care                                          8%        8%        8%"
+          },
+          {
+            "fact_id": "FACT:9ea5c7e90799bc7ca93a",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Feminine Care",
+            "snippet": "Feminine Care                                       7%        6%        6%"
+          },
+          {
+            "fact_id": "FACT:2d638a15c1f6819040b2",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Personal Health Care",
+            "snippet": "Personal Health Care                                    6%        6%        6%"
+          },
+          {
+            "fact_id": "FACT:9506ba833420905c3b67",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Personal Care",
+            "snippet": "Personal Care (1)                                      6%        6%        5%"
+          },
+          {
+            "fact_id": "FACT:d33448e3ea85555329cf",
+            "source_doc": "PG_10K_2026.pdf",
+            "page_num": 83,
+            "company_id": "COMP:PG",
+            "predicate": "OPERATES_SEGMENT",
+            "period": null,
+            "value": "Skin Care",
+            "snippet": "Skin Care (1)                                        4%        3%        4%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q11",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0fc2e23c5a1d10f57a69",
+              "source_doc": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 6721000000.0,
+              "snippet": "Net income                                                                           6,721              6,338              5,955"
+            },
+            "gold": {
+              "doc_id": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "6721000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:53a3acb7872ea2f95e0f",
+              "source_doc": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 44556000000.0,
+              "snippet": "     Total revenues                                                                  44,556             42,879             42,857"
+            },
+            "gold": {
+              "doc_id": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "44556000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0fc2e23c5a1d10f57a69",
+              "source_doc": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 6721000000.0,
+              "snippet": "Net income                                                                           6,721              6,338              5,955"
+            },
+            "gold": {
+              "doc_id": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "6721000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:53a3acb7872ea2f95e0f",
+              "source_doc": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 44556000000.0,
+              "snippet": "     Total revenues                                                                  44,556             42,879             42,857"
+            },
+            "gold": {
+              "doc_id": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "44556000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q12",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0d5ba5784ef97d56b3a0",
+              "source_doc": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "value": 17678000000.0,
+              "snippet": "Operating income                                                                    20,606         17,678         15,353"
+            },
+            "gold": {
+              "doc_id": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "expected_value": "17678000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:630e7b592744dca886f6",
+              "source_doc": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 57399000000.0,
+              "snippet": "     Total revenues                                                                  67,357         57,399         52,961"
+            },
+            "gold": {
+              "doc_id": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "57399000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0d5ba5784ef97d56b3a0",
+              "source_doc": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "value": 17678000000.0,
+              "snippet": "Operating income                                                                    20,606         17,678         15,353"
+            },
+            "gold": {
+              "doc_id": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "expected_value": "17678000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:630e7b592744dca886f6",
+              "source_doc": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 57399000000.0,
+              "snippet": "     Total revenues                                                                  67,357         57,399         52,961"
+            },
+            "gold": {
+              "doc_id": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "57399000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q13",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:172a4a17c3b65b84e0b1",
+              "source_doc": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 13774000000.0,
+              "snippet": "Research and development                                                        13,774         16,546         16,046"
+            },
+            "gold": {
+              "doc_id": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "13774000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:399bef09d5ecb704c133",
+              "source_doc": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 52853000000.0,
+              "snippet": "Net revenue                                                         $      52,853  $      53,101  $      54,228"
+            },
+            "gold": {
+              "doc_id": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "52853000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:172a4a17c3b65b84e0b1",
+              "source_doc": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 13774000000.0,
+              "snippet": "Research and development                                                        13,774         16,546         16,046"
+            },
+            "gold": {
+              "doc_id": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "13774000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:399bef09d5ecb704c133",
+              "source_doc": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 52853000000.0,
+              "snippet": "Net revenue                                                         $      52,853  $      53,101  $      54,228"
+            },
+            "gold": {
+              "doc_id": "INTC_10K_2025.pdf",
+              "page_num": 101,
+              "company_id": "COMP:INTC",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "52853000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q14",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:91e56ecc31a897a664dc",
+              "source_doc": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 16325000000.0,
+              "snippet": "    Net cash provided by operating activities                             16,325         19,810         21,172"
+            },
+            "gold": {
+              "doc_id": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "16325000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:497d5961ccc05a26d453",
+              "source_doc": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 3679000000.0,
+              "snippet": "Capital expenditures                                                        (3,679)         (3,485)         (3,226)"
+            },
+            "gold": {
+              "doc_id": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-3679000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:91e56ecc31a897a664dc",
+              "source_doc": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 16325000000.0,
+              "snippet": "    Net cash provided by operating activities                             16,325         19,810         21,172"
+            },
+            "gold": {
+              "doc_id": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "16325000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:497d5961ccc05a26d453",
+              "source_doc": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 3679000000.0,
+              "snippet": "Capital expenditures                                                        (3,679)         (3,485)         (3,226)"
+            },
+            "gold": {
+              "doc_id": "HD_10K_2026.pdf",
+              "page_num": 76,
+              "company_id": "COMP:HD",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-3679000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q15",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0e0e42c5eb207575c71e",
+              "source_doc": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2024",
+              "value": 15641000000.0,
+              "snippet": "Revenue                                                      $   17,682  $   15,641  $   17,519"
+            },
+            "gold": {
+              "doc_id": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2024",
+              "expected_value": "15641000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:1489142b5f1cf887a0c2",
+              "source_doc": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 17682000000.0,
+              "snippet": "Revenue                                                      $   17,682  $   15,641  $   17,519"
+            },
+            "gold": {
+              "doc_id": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "17682000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0e0e42c5eb207575c71e",
+              "source_doc": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2024",
+              "value": 15641000000.0,
+              "snippet": "Revenue                                                      $   17,682  $   15,641  $   17,519"
+            },
+            "gold": {
+              "doc_id": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2024",
+              "expected_value": "15641000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:1489142b5f1cf887a0c2",
+              "source_doc": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 17682000000.0,
+              "snippet": "Revenue                                                      $   17,682  $   15,641  $   17,519"
+            },
+            "gold": {
+              "doc_id": "TXN_10K_2025.pdf",
+              "page_num": 41,
+              "company_id": "COMP:TXN",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "17682000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q16",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:580efea55f55fc8e2d97",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:LONG_TERM_DEBT",
+              "period": "FY2025",
+              "value": 435206000000.0,
+              "snippet": "Long-term debt (included $134,559 and $100,780 at fair value)                                                   435,206        401,418"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:LONG_TERM_DEBT",
+              "period": "FY2025",
+              "expected_value": "435206000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:0da4f5cdc5e902608cdb",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:SHAREHOLDERS_EQUITY",
+              "period": "FY2025",
+              "value": 362438000000.0,
+              "snippet": "Total stockholders\u2019 equity                                                                                 362,438        344,758"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:SHAREHOLDERS_EQUITY",
+              "period": "FY2025",
+              "expected_value": "362438000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:580efea55f55fc8e2d97",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:LONG_TERM_DEBT",
+              "period": "FY2025",
+              "value": 435206000000.0,
+              "snippet": "Long-term debt (included $134,559 and $100,780 at fair value)                                                   435,206        401,418"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:LONG_TERM_DEBT",
+              "period": "FY2025",
+              "expected_value": "435206000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:0da4f5cdc5e902608cdb",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:SHAREHOLDERS_EQUITY",
+              "period": "FY2025",
+              "value": 362438000000.0,
+              "snippet": "Total stockholders\u2019 equity                                                                                 362,438        344,758"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 296,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:SHAREHOLDERS_EQUITY",
+              "period": "FY2025",
+              "expected_value": "362438000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q17",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 8,
+        "retrieved_count": 8,
+        "gold_count": 11,
+        "precision": 1.0,
+        "recall": 0.7272727272727273,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:e48d04c5f429fdb2b04d",
+              "source_doc": "NVDA_10K_2026.pdf",
+              "page_num": 86,
+              "company_id": "COMP:NVDA",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "NVDA_10K_2026.pdf",
+              "page_num": 86,
+              "company_id": "COMP:NVDA",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:478d12bbac59c268509f",
+              "source_doc": "QCOM_10K_2026.pdf",
+              "page_num": 93,
+              "company_id": "COMP:QCOM",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "QCOM_10K_2026.pdf",
+              "page_num": 93,
+              "company_id": "COMP:QCOM",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:b538edd8d60a7534973d",
+              "source_doc": "AVGO_10K_2025.pdf",
+              "page_num": 84,
+              "company_id": "COMP:AVGO",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "AVGO_10K_2025.pdf",
+              "page_num": 84,
+              "company_id": "COMP:AVGO",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:13ea680204c483d67029",
+              "source_doc": "MU_10K_2026.pdf",
+              "page_num": 162,
+              "company_id": "COMP:MU",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "MU_10K_2026.pdf",
+              "page_num": 162,
+              "company_id": "COMP:MU",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:bdaf3ecc9cead4ad4850",
+              "source_doc": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 72880000000.0,
+              "snippet": " Net income                                                   $     120,067  $       72,880  $       29,760"
+            },
+            "gold": {
+              "doc_id": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "72880000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:d50d95c51a490a9f2457",
+              "source_doc": "QCOM_10K_2026.pdf",
+              "page_num": 95,
+              "company_id": "COMP:QCOM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 5541000000.0,
+              "snippet": "    Net income                                                            $        13,628  $         5,541  $        10,142"
+            },
+            "gold": {
+              "doc_id": "QCOM_10K_2026.pdf",
+              "page_num": 95,
+              "company_id": "COMP:QCOM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "5541000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:289911772c61dfb8f545",
+              "source_doc": "AVGO_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:AVGO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 23126000000.0,
+              "snippet": "Net income                                                 $     23,126  $      5,895  $     14,082"
+            },
+            "gold": {
+              "doc_id": "AVGO_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:AVGO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "23126000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:834567f83146af271d95",
+              "source_doc": "MU_10K_2026.pdf",
+              "page_num": 112,
+              "company_id": "COMP:MU",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 8539000000.0,
+              "snippet": "   Net income                                                           $        84,969 $         8,539 $          778"
+            },
+            "gold": {
+              "doc_id": "MU_10K_2026.pdf",
+              "page_num": 112,
+              "company_id": "COMP:MU",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "8539000000"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "AMD_10K_2025.pdf",
+            "page_num": 144,
+            "company_id": "COMP:AMD",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "Ernst & Young LLP"
+          },
+          {
+            "doc_id": "INTC_10K_2025.pdf",
+            "page_num": 99,
+            "company_id": "COMP:INTC",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "Ernst & Young LLP"
+          },
+          {
+            "doc_id": "TXN_10K_2025.pdf",
+            "page_num": 91,
+            "company_id": "COMP:TXN",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "Ernst & Young LLP"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 8,
+        "retrieved_count": 8,
+        "gold_count": 11,
+        "precision": 1.0,
+        "recall": 0.7272727272727273,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:e48d04c5f429fdb2b04d",
+              "source_doc": "NVDA_10K_2026.pdf",
+              "page_num": 86,
+              "company_id": "COMP:NVDA",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "NVDA_10K_2026.pdf",
+              "page_num": 86,
+              "company_id": "COMP:NVDA",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:478d12bbac59c268509f",
+              "source_doc": "QCOM_10K_2026.pdf",
+              "page_num": 93,
+              "company_id": "COMP:QCOM",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "QCOM_10K_2026.pdf",
+              "page_num": 93,
+              "company_id": "COMP:QCOM",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:b538edd8d60a7534973d",
+              "source_doc": "AVGO_10K_2025.pdf",
+              "page_num": 84,
+              "company_id": "COMP:AVGO",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "AVGO_10K_2025.pdf",
+              "page_num": 84,
+              "company_id": "COMP:AVGO",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:13ea680204c483d67029",
+              "source_doc": "MU_10K_2026.pdf",
+              "page_num": 162,
+              "company_id": "COMP:MU",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "PricewaterhouseCoopers LLP",
+              "snippet": "PricewaterhouseCoopers LLP"
+            },
+            "gold": {
+              "doc_id": "MU_10K_2026.pdf",
+              "page_num": 162,
+              "company_id": "COMP:MU",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "PricewaterhouseCoopers LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:bdaf3ecc9cead4ad4850",
+              "source_doc": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 72880000000.0,
+              "snippet": " Net income                                                   $     120,067  $       72,880  $       29,760"
+            },
+            "gold": {
+              "doc_id": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "72880000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:d50d95c51a490a9f2457",
+              "source_doc": "QCOM_10K_2026.pdf",
+              "page_num": 95,
+              "company_id": "COMP:QCOM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 5541000000.0,
+              "snippet": "    Net income                                                            $        13,628  $         5,541  $        10,142"
+            },
+            "gold": {
+              "doc_id": "QCOM_10K_2026.pdf",
+              "page_num": 95,
+              "company_id": "COMP:QCOM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "5541000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:289911772c61dfb8f545",
+              "source_doc": "AVGO_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:AVGO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 23126000000.0,
+              "snippet": "Net income                                                 $     23,126  $      5,895  $     14,082"
+            },
+            "gold": {
+              "doc_id": "AVGO_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:AVGO",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "23126000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:834567f83146af271d95",
+              "source_doc": "MU_10K_2026.pdf",
+              "page_num": 112,
+              "company_id": "COMP:MU",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 8539000000.0,
+              "snippet": "   Net income                                                           $        84,969 $         8,539 $          778"
+            },
+            "gold": {
+              "doc_id": "MU_10K_2026.pdf",
+              "page_num": 112,
+              "company_id": "COMP:MU",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "8539000000"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "AMD_10K_2025.pdf",
+            "page_num": 144,
+            "company_id": "COMP:AMD",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "Ernst & Young LLP"
+          },
+          {
+            "doc_id": "INTC_10K_2025.pdf",
+            "page_num": 99,
+            "company_id": "COMP:INTC",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "Ernst & Young LLP"
+          },
+          {
+            "doc_id": "TXN_10K_2025.pdf",
+            "page_num": 91,
+            "company_id": "COMP:TXN",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "Ernst & Young LLP"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q18",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 3,
+        "retrieved_count": 3,
+        "gold_count": 5,
+        "precision": 1.0,
+        "recall": 0.6,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:a0ccc629e0b0afcdfad3",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 1,
+              "company_id": "COMP:COST",
+              "predicate": "HEADQUARTERED_IN",
+              "period": null,
+              "value": "Issaquah, Washington",
+              "snippet": "                                999 Lake Drive, Issaquah, WA 98027"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 1,
+              "company_id": "COMP:COST",
+              "predicate": "HEADQUARTERED_IN",
+              "period": null,
+              "expected_value": "Issaquah, WA"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:9e5d5a2cbc10d11b0451",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "value": 10383000000.0,
+              "snippet": "        Operating income                                          11,685                10,383                 9,285"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "expected_value": "10383000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:8e3c8b76d23e41dbad39",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 275235000000.0,
+              "snippet": "          Total revenue                                           303,154               275,235               254,453"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "275235000000"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "HD_10K_2026.pdf",
+            "page_num": 1,
+            "company_id": "COMP:HD",
+            "predicate": "HEADQUARTERED_IN",
+            "period": null,
+            "expected_value": "Atlanta, Georgia"
+          },
+          {
+            "doc_id": "TGT_10K_2026.pdf",
+            "page_num": 1,
+            "company_id": "COMP:TGT",
+            "predicate": "HEADQUARTERED_IN",
+            "period": null,
+            "expected_value": "Minneapolis, Minnesota"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 3,
+        "retrieved_count": 3,
+        "gold_count": 5,
+        "precision": 1.0,
+        "recall": 0.6,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:a0ccc629e0b0afcdfad3",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 1,
+              "company_id": "COMP:COST",
+              "predicate": "HEADQUARTERED_IN",
+              "period": null,
+              "value": "Issaquah, Washington",
+              "snippet": "                                999 Lake Drive, Issaquah, WA 98027"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 1,
+              "company_id": "COMP:COST",
+              "predicate": "HEADQUARTERED_IN",
+              "period": null,
+              "expected_value": "Issaquah, WA"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:9e5d5a2cbc10d11b0451",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "value": 10383000000.0,
+              "snippet": "        Operating income                                          11,685                10,383                 9,285"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_INCOME",
+              "period": "FY2025",
+              "expected_value": "10383000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:8e3c8b76d23e41dbad39",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 275235000000.0,
+              "snippet": "          Total revenue                                           303,154               275,235               254,453"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 56,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "275235000000"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "HD_10K_2026.pdf",
+            "page_num": 1,
+            "company_id": "COMP:HD",
+            "predicate": "HEADQUARTERED_IN",
+            "period": null,
+            "expected_value": "Atlanta, Georgia"
+          },
+          {
+            "doc_id": "TGT_10K_2026.pdf",
+            "page_num": 1,
+            "company_id": "COMP:TGT",
+            "predicate": "HEADQUARTERED_IN",
+            "period": null,
+            "expected_value": "Minneapolis, Minnesota"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q19",
+      "type": "multi-hop",
+      "correct": false,
+      "strict": {
+        "matched_count": 0,
+        "retrieved_count": 0,
+        "gold_count": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "LLY_10K_2025.pdf",
+            "page_num": 86,
+            "company_id": "COMP:LLY",
+            "predicate": "METRIC:RD_EXPENSE",
+            "period": "FY2025",
+            "expected_value": "13337000000"
+          },
+          {
+            "doc_id": "PFE_10K_2025.pdf",
+            "page_num": 109,
+            "company_id": "COMP:PFE",
+            "predicate": "METRIC:RD_EXPENSE",
+            "period": "FY2025",
+            "expected_value": "10437000000"
+          },
+          {
+            "doc_id": "MRK_10K_2025.pdf",
+            "page_num": 144,
+            "company_id": "COMP:MRK",
+            "predicate": "METRIC:RD_EXPENSE",
+            "period": "FY2025",
+            "expected_value": "15789000000"
+          },
+          {
+            "doc_id": "MRK_10K_2025.pdf",
+            "page_num": 84,
+            "company_id": "COMP:MRK",
+            "predicate": "HAS_CEO",
+            "period": null,
+            "expected_value": "Robert M. Davis"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 0,
+        "retrieved_count": 0,
+        "gold_count": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matched_facts": [],
+        "missed_facts": [
+          {
+            "doc_id": "LLY_10K_2025.pdf",
+            "page_num": 86,
+            "company_id": "COMP:LLY",
+            "predicate": "METRIC:RD_EXPENSE",
+            "period": "FY2025",
+            "expected_value": "13337000000"
+          },
+          {
+            "doc_id": "PFE_10K_2025.pdf",
+            "page_num": 109,
+            "company_id": "COMP:PFE",
+            "predicate": "METRIC:RD_EXPENSE",
+            "period": "FY2025",
+            "expected_value": "10437000000"
+          },
+          {
+            "doc_id": "MRK_10K_2025.pdf",
+            "page_num": 144,
+            "company_id": "COMP:MRK",
+            "predicate": "METRIC:RD_EXPENSE",
+            "period": "FY2025",
+            "expected_value": "15789000000"
+          },
+          {
+            "doc_id": "MRK_10K_2025.pdf",
+            "page_num": 84,
+            "company_id": "COMP:MRK",
+            "predicate": "HAS_CEO",
+            "period": null,
+            "expected_value": "Robert M. Davis"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q20",
+      "type": "multi-hop",
+      "correct": true,
+      "strict": {
+        "matched_count": 6,
+        "retrieved_count": 6,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0cdc0a014d6ab96442a9",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 85,
+              "company_id": "COMP:AAPL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 85,
+              "company_id": "COMP:AAPL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:50ab0c63b3c596114663",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 83,
+              "company_id": "COMP:GOOGL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 83,
+              "company_id": "COMP:GOOGL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:d47f4cae6d7d32e45009",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 111482000000.0,
+              "snippet": "      Cash generated by operating activities                                  145,097          111,482         118,254"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "111482000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:fa5dcdf0fa7a2c77c8b2",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 12715000000.0,
+              "snippet": "  Payments for acquisition of property, plant and equipment                           (9,041)          (12,715)           (9,447)"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-12715000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:98142c842196adc145ff",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 164713000000.0,
+              "snippet": "       Net cash provided by operating activities                          101,746      125,299      164,713"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "164713000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:a34f034d9c18122bcd89",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 91447000000.0,
+              "snippet": "Purchases of property and equipment                                        (32,251)       (52,535)       (91,447)"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-91447000000"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "MSFT_10K_2026.pdf",
+            "page_num": 138,
+            "company_id": "COMP:MSFT",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "DELOITTE & TOUCHE LLP"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 6,
+        "retrieved_count": 6,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:0cdc0a014d6ab96442a9",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 85,
+              "company_id": "COMP:AAPL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 85,
+              "company_id": "COMP:AAPL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:50ab0c63b3c596114663",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 83,
+              "company_id": "COMP:GOOGL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 83,
+              "company_id": "COMP:GOOGL",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:d47f4cae6d7d32e45009",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 111482000000.0,
+              "snippet": "      Cash generated by operating activities                                  145,097          111,482         118,254"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "111482000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:fa5dcdf0fa7a2c77c8b2",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 12715000000.0,
+              "snippet": "  Payments for acquisition of property, plant and equipment                           (9,041)          (12,715)           (9,447)"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 57,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-12715000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:98142c842196adc145ff",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 164713000000.0,
+              "snippet": "       Net cash provided by operating activities                          101,746      125,299      164,713"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "164713000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:a34f034d9c18122bcd89",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "value": 91447000000.0,
+              "snippet": "Purchases of property and equipment                                        (32,251)       (52,535)       (91,447)"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:CAPEX",
+              "period": "FY2025",
+              "expected_value": "-91447000000"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "MSFT_10K_2026.pdf",
+            "page_num": 138,
+            "company_id": "COMP:MSFT",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "DELOITTE & TOUCHE LLP"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q21",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:46df5c554ae37d863cc7",
+              "source_doc": "KO_10K_2025.pdf",
+              "page_num": 113,
+              "company_id": "COMP:KO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 47941000000.0,
+              "snippet": "Net Operating Revenues                                               $      47,941 $      47,061 $      45,754"
+            },
+            "gold": {
+              "doc_id": "KO_10K_2025.pdf",
+              "page_num": 113,
+              "company_id": "COMP:KO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "47941000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:158243336776dc8f9337",
+              "source_doc": "PEP_10K_2025.pdf",
+              "page_num": 110,
+              "company_id": "COMP:PEP",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 93925000000.0,
+              "snippet": "Net Revenue                                           $   93,925  $   91,854  $   91,471"
+            },
+            "gold": {
+              "doc_id": "PEP_10K_2025.pdf",
+              "page_num": 110,
+              "company_id": "COMP:PEP",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "93925000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:46df5c554ae37d863cc7",
+              "source_doc": "KO_10K_2025.pdf",
+              "page_num": 113,
+              "company_id": "COMP:KO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 47941000000.0,
+              "snippet": "Net Operating Revenues                                               $      47,941 $      47,061 $      45,754"
+            },
+            "gold": {
+              "doc_id": "KO_10K_2025.pdf",
+              "page_num": 113,
+              "company_id": "COMP:KO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "47941000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:158243336776dc8f9337",
+              "source_doc": "PEP_10K_2025.pdf",
+              "page_num": 110,
+              "company_id": "COMP:PEP",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 93925000000.0,
+              "snippet": "Net Revenue                                           $   93,925  $   91,854  $   91,471"
+            },
+            "gold": {
+              "doc_id": "PEP_10K_2025.pdf",
+              "page_num": 110,
+              "company_id": "COMP:PEP",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "93925000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q22",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:050575ed21c7b843ae2d",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 57048000000.0,
+              "snippet": "Net income                                                                $       57,048  $       58,471  $       49,552"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "57048000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:be7999e22ba79dc41934",
+              "source_doc": "BAC_10K_2025.pdf",
+              "page_num": 186,
+              "company_id": "COMP:BAC",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 30509000000.0,
+              "snippet": "   Net income                                                                          $         30,509   $         26,973   $         26,305"
+            },
+            "gold": {
+              "doc_id": "BAC_10K_2025.pdf",
+              "page_num": 186,
+              "company_id": "COMP:BAC",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "30509000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:050575ed21c7b843ae2d",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 57048000000.0,
+              "snippet": "Net income                                                                $       57,048  $       58,471  $       49,552"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "57048000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:be7999e22ba79dc41934",
+              "source_doc": "BAC_10K_2025.pdf",
+              "page_num": 186,
+              "company_id": "COMP:BAC",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 30509000000.0,
+              "snippet": "   Net income                                                                          $         30,509   $         26,973   $         26,305"
+            },
+            "gold": {
+              "doc_id": "BAC_10K_2025.pdf",
+              "page_num": 186,
+              "company_id": "COMP:BAC",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "30509000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q23",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:3d2cb9d74fa206ce6a7c",
+              "source_doc": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 12914000000.0,
+              "snippet": "      Research and development                                            18,497          12,914           8,675"
+            },
+            "gold": {
+              "doc_id": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "12914000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:852a3be534888c03a705",
+              "source_doc": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 8091000000.0,
+              "snippet": "Research and development                                          8,091            6,456            5,872"
+            },
+            "gold": {
+              "doc_id": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "8091000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:3d2cb9d74fa206ce6a7c",
+              "source_doc": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 12914000000.0,
+              "snippet": "      Research and development                                            18,497          12,914           8,675"
+            },
+            "gold": {
+              "doc_id": "NVDA_10K_2026.pdf",
+              "page_num": 87,
+              "company_id": "COMP:NVDA",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "12914000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:852a3be534888c03a705",
+              "source_doc": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "value": 8091000000.0,
+              "snippet": "Research and development                                          8,091            6,456            5,872"
+            },
+            "gold": {
+              "doc_id": "AMD_10K_2025.pdf",
+              "page_num": 90,
+              "company_id": "COMP:AMD",
+              "predicate": "METRIC:RD_EXPENSE",
+              "period": "FY2025",
+              "expected_value": "8091000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q24",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:949a377bfc3b6e419416",
+              "source_doc": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 65179000000.0,
+              "snippet": "Revenue                                                  $     65,179  $     45,043  $     34,124"
+            },
+            "gold": {
+              "doc_id": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "65179000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:06455276ee15a89970fb",
+              "source_doc": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 62579000000.0,
+              "snippet": "Total revenues                                                                             62,579        63,627        59,553"
+            },
+            "gold": {
+              "doc_id": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "62579000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:949a377bfc3b6e419416",
+              "source_doc": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 65179000000.0,
+              "snippet": "Revenue                                                  $     65,179  $     45,043  $     34,124"
+            },
+            "gold": {
+              "doc_id": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "65179000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:06455276ee15a89970fb",
+              "source_doc": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 62579000000.0,
+              "snippet": "Total revenues                                                                             62,579        63,627        59,553"
+            },
+            "gold": {
+              "doc_id": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "62579000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q25",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:4e2b70d263874725077c",
+              "source_doc": "WMT_10K_2026.pdf",
+              "page_num": 90,
+              "company_id": "COMP:WMT",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 36443000000.0,
+              "snippet": "Net cash provided by operating activities                                                                  41,565           36,443           35,726"
+            },
+            "gold": {
+              "doc_id": "WMT_10K_2026.pdf",
+              "page_num": 90,
+              "company_id": "COMP:WMT",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "36443000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:60db04153d04cabc41ed",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 60,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 13335000000.0,
+              "snippet": "    Net cash provided by operating activities                                        15,817             13,335              11,339"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 60,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "13335000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:4e2b70d263874725077c",
+              "source_doc": "WMT_10K_2026.pdf",
+              "page_num": 90,
+              "company_id": "COMP:WMT",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 36443000000.0,
+              "snippet": "Net cash provided by operating activities                                                                  41,565           36,443           35,726"
+            },
+            "gold": {
+              "doc_id": "WMT_10K_2026.pdf",
+              "page_num": 90,
+              "company_id": "COMP:WMT",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "36443000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:60db04153d04cabc41ed",
+              "source_doc": "COST_10K_2026.pdf",
+              "page_num": 60,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "value": 13335000000.0,
+              "snippet": "    Net cash provided by operating activities                                        15,817             13,335              11,339"
+            },
+            "gold": {
+              "doc_id": "COST_10K_2026.pdf",
+              "page_num": 60,
+              "company_id": "COMP:COST",
+              "predicate": "METRIC:OPERATING_CASH_FLOW",
+              "period": "FY2025",
+              "expected_value": "13335000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q26",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 7,
+        "retrieved_count": 7,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:949a377bfc3b6e419416",
+              "source_doc": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 65179000000.0,
+              "snippet": "Revenue                                                  $     65,179  $     45,043  $     34,124"
+            },
+            "gold": {
+              "doc_id": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "65179000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:c72211951ebee08c4227",
+              "source_doc": "JNJ_10K_2025.pdf",
+              "page_num": 52,
+              "company_id": "COMP:JNJ",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 94193000000.0,
+              "snippet": "Sales to customers                                                                         $94,193        88,821        85,159"
+            },
+            "gold": {
+              "doc_id": "JNJ_10K_2025.pdf",
+              "page_num": 52,
+              "company_id": "COMP:JNJ",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "94193000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:06455276ee15a89970fb",
+              "source_doc": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 62579000000.0,
+              "snippet": "Total revenues                                                                             62,579        63,627        59,553"
+            },
+            "gold": {
+              "doc_id": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "62579000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:f6c889e729c8c2fea61e",
+              "source_doc": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 65011000000.0,
+              "snippet": "Sales                                                                              $    65,011  $    64,168  $    60,115"
+            },
+            "gold": {
+              "doc_id": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "65011000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:694b9194c62f7ae3518d",
+              "source_doc": "ABBV_10K_2025.pdf",
+              "page_num": 96,
+              "company_id": "COMP:ABBV",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 61160000000.0,
+              "snippet": "Net revenues                                             $     61,160  $     56,334  $     54,318"
+            },
+            "gold": {
+              "doc_id": "ABBV_10K_2025.pdf",
+              "page_num": 96,
+              "company_id": "COMP:ABBV",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "61160000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:ae63bfd4ca58ade60fd2",
+              "source_doc": "UNH_10K_2025.pdf",
+              "page_num": 73,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 447567000000.0,
+              "snippet": "Total revenues                                                                  447,567      400,278      371,622"
+            },
+            "gold": {
+              "doc_id": "UNH_10K_2025.pdf",
+              "page_num": 73,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "447567000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:53a3acb7872ea2f95e0f",
+              "source_doc": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 44556000000.0,
+              "snippet": "     Total revenues                                                                  44,556             42,879             42,857"
+            },
+            "gold": {
+              "doc_id": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "44556000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 7,
+        "retrieved_count": 7,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:949a377bfc3b6e419416",
+              "source_doc": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 65179000000.0,
+              "snippet": "Revenue                                                  $     65,179  $     45,043  $     34,124"
+            },
+            "gold": {
+              "doc_id": "LLY_10K_2025.pdf",
+              "page_num": 86,
+              "company_id": "COMP:LLY",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "65179000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:c72211951ebee08c4227",
+              "source_doc": "JNJ_10K_2025.pdf",
+              "page_num": 52,
+              "company_id": "COMP:JNJ",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 94193000000.0,
+              "snippet": "Sales to customers                                                                         $94,193        88,821        85,159"
+            },
+            "gold": {
+              "doc_id": "JNJ_10K_2025.pdf",
+              "page_num": 52,
+              "company_id": "COMP:JNJ",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "94193000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:06455276ee15a89970fb",
+              "source_doc": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 62579000000.0,
+              "snippet": "Total revenues                                                                             62,579        63,627        59,553"
+            },
+            "gold": {
+              "doc_id": "PFE_10K_2025.pdf",
+              "page_num": 109,
+              "company_id": "COMP:PFE",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "62579000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:f6c889e729c8c2fea61e",
+              "source_doc": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 65011000000.0,
+              "snippet": "Sales                                                                              $    65,011  $    64,168  $    60,115"
+            },
+            "gold": {
+              "doc_id": "MRK_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:MRK",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "65011000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:694b9194c62f7ae3518d",
+              "source_doc": "ABBV_10K_2025.pdf",
+              "page_num": 96,
+              "company_id": "COMP:ABBV",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 61160000000.0,
+              "snippet": "Net revenues                                             $     61,160  $     56,334  $     54,318"
+            },
+            "gold": {
+              "doc_id": "ABBV_10K_2025.pdf",
+              "page_num": 96,
+              "company_id": "COMP:ABBV",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "61160000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:ae63bfd4ca58ade60fd2",
+              "source_doc": "UNH_10K_2025.pdf",
+              "page_num": 73,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 447567000000.0,
+              "snippet": "Total revenues                                                                  447,567      400,278      371,622"
+            },
+            "gold": {
+              "doc_id": "UNH_10K_2025.pdf",
+              "page_num": 73,
+              "company_id": "COMP:UNH",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "447567000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:53a3acb7872ea2f95e0f",
+              "source_doc": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "value": 44556000000.0,
+              "snippet": "     Total revenues                                                                  44,556             42,879             42,857"
+            },
+            "gold": {
+              "doc_id": "TMO_10K_2025.pdf",
+              "page_num": 62,
+              "company_id": "COMP:TMO",
+              "predicate": "METRIC:REVENUE",
+              "period": "FY2025",
+              "expected_value": "44556000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q27",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 7,
+        "retrieved_count": 7,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:d8e6bd290324371f6347",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 52,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 112010000000.0,
+              "snippet": "Net income                                                     $      132,175  $      112,010  $       93,736"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 52,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "112010000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:6883b71848b9db0306a3",
+              "source_doc": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 101832000000.0,
+              "snippet": "Net income                                                  $   133,749  $   101,832  $    88,136"
+            },
+            "gold": {
+              "doc_id": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "101832000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:6c5c23abd223ca1661ec",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 132170000000.0,
+              "snippet": "Net income                                                  $    73,795  $   100,118  $   132,170"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "132170000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:b20811ddee391f20271b",
+              "source_doc": "AMZN_10K_2025.pdf",
+              "page_num": 61,
+              "company_id": "COMP:AMZN",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 77670000000.0,
+              "snippet": "Net income                                                      $      30,425  $      59,248  $      77,670"
+            },
+            "gold": {
+              "doc_id": "AMZN_10K_2025.pdf",
+              "page_num": 61,
+              "company_id": "COMP:AMZN",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "77670000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:551886f06036001b3f59",
+              "source_doc": "META_10K_2025.pdf",
+              "page_num": 150,
+              "company_id": "COMP:META",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 60458000000.0,
+              "snippet": "Net income                                                    $       60,458  $       62,360  $       39,098"
+            },
+            "gold": {
+              "doc_id": "META_10K_2025.pdf",
+              "page_num": 150,
+              "company_id": "COMP:META",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "60458000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:601b16b56986daa651a3",
+              "source_doc": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 12443000000.0,
+              "snippet": "Net income                                                              $     17,087   $     12,443   $     10,467"
+            },
+            "gold": {
+              "doc_id": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "12443000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:edf0d08177a7eb5d27fc",
+              "source_doc": "CRM_10K_2026.pdf",
+              "page_num": 104,
+              "company_id": "COMP:CRM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 6197000000.0,
+              "snippet": "Net income                                                         $        7,457  $        6,197  $        4,136"
+            },
+            "gold": {
+              "doc_id": "CRM_10K_2026.pdf",
+              "page_num": 104,
+              "company_id": "COMP:CRM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "6197000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 7,
+        "retrieved_count": 7,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:d8e6bd290324371f6347",
+              "source_doc": "AAPL_10K_2026.pdf",
+              "page_num": 52,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 112010000000.0,
+              "snippet": "Net income                                                     $      132,175  $      112,010  $       93,736"
+            },
+            "gold": {
+              "doc_id": "AAPL_10K_2026.pdf",
+              "page_num": 52,
+              "company_id": "COMP:AAPL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "112010000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:6883b71848b9db0306a3",
+              "source_doc": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 101832000000.0,
+              "snippet": "Net income                                                  $   133,749  $   101,832  $    88,136"
+            },
+            "gold": {
+              "doc_id": "MSFT_10K_2026.pdf",
+              "page_num": 82,
+              "company_id": "COMP:MSFT",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "101832000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:6c5c23abd223ca1661ec",
+              "source_doc": "GOOGL_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 132170000000.0,
+              "snippet": "Net income                                                  $    73,795  $   100,118  $   132,170"
+            },
+            "gold": {
+              "doc_id": "GOOGL_10K_2025.pdf",
+              "page_num": 87,
+              "company_id": "COMP:GOOGL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "132170000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:b20811ddee391f20271b",
+              "source_doc": "AMZN_10K_2025.pdf",
+              "page_num": 61,
+              "company_id": "COMP:AMZN",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 77670000000.0,
+              "snippet": "Net income                                                      $      30,425  $      59,248  $      77,670"
+            },
+            "gold": {
+              "doc_id": "AMZN_10K_2025.pdf",
+              "page_num": 61,
+              "company_id": "COMP:AMZN",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "77670000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:551886f06036001b3f59",
+              "source_doc": "META_10K_2025.pdf",
+              "page_num": 150,
+              "company_id": "COMP:META",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 60458000000.0,
+              "snippet": "Net income                                                    $       60,458  $       62,360  $       39,098"
+            },
+            "gold": {
+              "doc_id": "META_10K_2025.pdf",
+              "page_num": 150,
+              "company_id": "COMP:META",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "60458000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:601b16b56986daa651a3",
+              "source_doc": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 12443000000.0,
+              "snippet": "Net income                                                              $     17,087   $     12,443   $     10,467"
+            },
+            "gold": {
+              "doc_id": "ORCL_10K_2026.pdf",
+              "page_num": 116,
+              "company_id": "COMP:ORCL",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "12443000000"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:edf0d08177a7eb5d27fc",
+              "source_doc": "CRM_10K_2026.pdf",
+              "page_num": 104,
+              "company_id": "COMP:CRM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "value": 6197000000.0,
+              "snippet": "Net income                                                         $        7,457  $        6,197  $        4,136"
+            },
+            "gold": {
+              "doc_id": "CRM_10K_2026.pdf",
+              "page_num": 104,
+              "company_id": "COMP:CRM",
+              "predicate": "METRIC:NET_INCOME",
+              "period": "FY2025",
+              "expected_value": "6197000000"
+            }
+          }
+        ],
+        "missed_facts": [],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q28",
+      "type": "cross-filing",
+      "correct": false,
+      "strict": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 6,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:8366e65849931ddfd012",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "value": 20.02,
+              "snippet": "Diluted earnings per share                                                                    20.02            19.75            16.23"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "expected_value": "20.02"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:ad7fff8ae2c26b5769ac",
+              "source_doc": "C_10K_2025.pdf",
+              "page_num": 190,
+              "company_id": "COMP:C",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "value": 6.99,
+              "snippet": "Net income                                                   $                  6.99 $                  5.94 $                  4.04"
+            },
+            "gold": {
+              "doc_id": "C_10K_2025.pdf",
+              "page_num": 190,
+              "company_id": "COMP:C",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "expected_value": "6.99"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "BAC_10K_2025.pdf",
+            "page_num": 186,
+            "company_id": "COMP:BAC",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "3.81"
+          },
+          {
+            "doc_id": "GS_10K_2025.pdf",
+            "page_num": 318,
+            "company_id": "COMP:GS",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "51.32"
+          },
+          {
+            "doc_id": "MS_10K_2025.pdf",
+            "page_num": 208,
+            "company_id": "COMP:MS",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "10.21"
+          },
+          {
+            "doc_id": "BLK_10K_2025.pdf",
+            "page_num": 117,
+            "company_id": "COMP:BLK",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "35.31"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 2,
+        "retrieved_count": 2,
+        "gold_count": 6,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:8366e65849931ddfd012",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "value": 20.02,
+              "snippet": "Diluted earnings per share                                                                    20.02            19.75            16.23"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 294,
+              "company_id": "COMP:JPM",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "expected_value": "20.02"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:ad7fff8ae2c26b5769ac",
+              "source_doc": "C_10K_2025.pdf",
+              "page_num": 190,
+              "company_id": "COMP:C",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "value": 6.99,
+              "snippet": "Net income                                                   $                  6.99 $                  5.94 $                  4.04"
+            },
+            "gold": {
+              "doc_id": "C_10K_2025.pdf",
+              "page_num": 190,
+              "company_id": "COMP:C",
+              "predicate": "METRIC:EPS_DILUTED",
+              "period": "FY2025",
+              "expected_value": "6.99"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "BAC_10K_2025.pdf",
+            "page_num": 186,
+            "company_id": "COMP:BAC",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "3.81"
+          },
+          {
+            "doc_id": "GS_10K_2025.pdf",
+            "page_num": 318,
+            "company_id": "COMP:GS",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "51.32"
+          },
+          {
+            "doc_id": "MS_10K_2025.pdf",
+            "page_num": 208,
+            "company_id": "COMP:MS",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "10.21"
+          },
+          {
+            "doc_id": "BLK_10K_2025.pdf",
+            "page_num": 117,
+            "company_id": "COMP:BLK",
+            "predicate": "METRIC:EPS_DILUTED",
+            "period": "FY2025",
+            "expected_value": "35.31"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q29",
+      "type": "cross-filing",
+      "correct": true,
+      "strict": {
+        "matched_count": 3,
+        "retrieved_count": 3,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 0.42857142857142855,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:1201dc5c4c4a76ff21e9",
+              "source_doc": "AMD_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:AMD",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "AMD_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:AMD",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:c75b44b67c0d3b99a913",
+              "source_doc": "INTC_10K_2025.pdf",
+              "page_num": 99,
+              "company_id": "COMP:INTC",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "INTC_10K_2025.pdf",
+              "page_num": 99,
+              "company_id": "COMP:INTC",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:337b73f5fc24fdf08554",
+              "source_doc": "TXN_10K_2025.pdf",
+              "page_num": 91,
+              "company_id": "COMP:TXN",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "TXN_10K_2025.pdf",
+              "page_num": 91,
+              "company_id": "COMP:TXN",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "NVDA_10K_2026.pdf",
+            "page_num": 86,
+            "company_id": "COMP:NVDA",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "doc_id": "QCOM_10K_2026.pdf",
+            "page_num": 93,
+            "company_id": "COMP:QCOM",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "doc_id": "AVGO_10K_2025.pdf",
+            "page_num": 84,
+            "company_id": "COMP:AVGO",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "doc_id": "MU_10K_2026.pdf",
+            "page_num": 162,
+            "company_id": "COMP:MU",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 3,
+        "retrieved_count": 3,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 0.42857142857142855,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:1201dc5c4c4a76ff21e9",
+              "source_doc": "AMD_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:AMD",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "AMD_10K_2025.pdf",
+              "page_num": 144,
+              "company_id": "COMP:AMD",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:c75b44b67c0d3b99a913",
+              "source_doc": "INTC_10K_2025.pdf",
+              "page_num": 99,
+              "company_id": "COMP:INTC",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "INTC_10K_2025.pdf",
+              "page_num": 99,
+              "company_id": "COMP:INTC",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:337b73f5fc24fdf08554",
+              "source_doc": "TXN_10K_2025.pdf",
+              "page_num": 91,
+              "company_id": "COMP:TXN",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "value": "Ernst & Young LLP",
+              "snippet": "Ernst & Young LLP"
+            },
+            "gold": {
+              "doc_id": "TXN_10K_2025.pdf",
+              "page_num": 91,
+              "company_id": "COMP:TXN",
+              "predicate": "AUDITED_BY",
+              "period": null,
+              "expected_value": "Ernst & Young LLP"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "NVDA_10K_2026.pdf",
+            "page_num": 86,
+            "company_id": "COMP:NVDA",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "doc_id": "QCOM_10K_2026.pdf",
+            "page_num": 93,
+            "company_id": "COMP:QCOM",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "doc_id": "AVGO_10K_2025.pdf",
+            "page_num": 84,
+            "company_id": "COMP:AVGO",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "doc_id": "MU_10K_2026.pdf",
+            "page_num": 162,
+            "company_id": "COMP:MU",
+            "predicate": "AUDITED_BY",
+            "period": null,
+            "expected_value": "PricewaterhouseCoopers LLP"
+          }
+        ],
+        "extra_facts": []
+      }
+    },
+    {
+      "id": "Q30",
+      "type": "cross-filing",
+      "correct": false,
+      "strict": {
+        "matched_count": 6,
+        "retrieved_count": 6,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:7e1309b8fc42d61c2baa",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:JPM",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                                         Delaware                                          13-2624428\n                                       (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:JPM",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:c2f80a8b8662baa84411",
+              "source_doc": "GS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:GS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "                     Delaware                                         13-4019460\n                       (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "GS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:GS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:3e6e7d3b89ffc2bc77f6",
+              "source_doc": "MS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:MS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n         Delaware                1585 Broadway                 36-3145972                (212) 761-4000\n      (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "MS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:MS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:61062f5e432492bfe82f",
+              "source_doc": "WFC_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:WFC",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                        Delaware                                                     No. 41-0449260\n       (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "WFC_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:WFC",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:8158d96e8baeb295c494",
+              "source_doc": "C_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:C",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                                    Delaware                                          52-1568099\n                     (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "C_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:C",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:5a1644aa2123625b0279",
+              "source_doc": "BLK_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:BLK",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                        Delaware                                                 99-1116001\n                         (State or Other Jurisdiction"
+            },
+            "gold": {
+              "doc_id": "BLK_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:BLK",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "BAC_10K_2025.pdf",
+            "page_num": 1,
+            "company_id": "COMP:BAC",
+            "predicate": "INCORPORATED_IN",
+            "period": null,
+            "expected_value": "Delaware"
+          }
+        ],
+        "extra_facts": []
+      },
+      "page_plus_minus_1": {
+        "matched_count": 6,
+        "retrieved_count": 6,
+        "gold_count": 7,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "matched_facts": [
+          {
+            "retrieved": {
+              "fact_id": "FACT:7e1309b8fc42d61c2baa",
+              "source_doc": "JPM_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:JPM",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                                         Delaware                                          13-2624428\n                                       (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "JPM_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:JPM",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:c2f80a8b8662baa84411",
+              "source_doc": "GS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:GS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "                     Delaware                                         13-4019460\n                       (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "GS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:GS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:3e6e7d3b89ffc2bc77f6",
+              "source_doc": "MS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:MS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n         Delaware                1585 Broadway                 36-3145972                (212) 761-4000\n      (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "MS_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:MS",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:61062f5e432492bfe82f",
+              "source_doc": "WFC_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:WFC",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                        Delaware                                                     No. 41-0449260\n       (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "WFC_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:WFC",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:8158d96e8baeb295c494",
+              "source_doc": "C_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:C",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                                    Delaware                                          52-1568099\n                     (State or other jurisdiction"
+            },
+            "gold": {
+              "doc_id": "C_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:C",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          },
+          {
+            "retrieved": {
+              "fact_id": "FACT:5a1644aa2123625b0279",
+              "source_doc": "BLK_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:BLK",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "value": "Delaware",
+              "snippet": "\n                        Delaware                                                 99-1116001\n                         (State or Other Jurisdiction"
+            },
+            "gold": {
+              "doc_id": "BLK_10K_2025.pdf",
+              "page_num": 1,
+              "company_id": "COMP:BLK",
+              "predicate": "INCORPORATED_IN",
+              "period": null,
+              "expected_value": "Delaware"
+            }
+          }
+        ],
+        "missed_facts": [
+          {
+            "doc_id": "BAC_10K_2025.pdf",
+            "page_num": 1,
+            "company_id": "COMP:BAC",
+            "predicate": "INCORPORATED_IN",
+            "period": null,
+            "expected_value": "Delaware"
+          }
+        ],
+        "extra_facts": []
+      }
+    }
+  ]
+}
